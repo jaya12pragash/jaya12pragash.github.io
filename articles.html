@@ -6,7 +6,7 @@
   <title>Articles | Jayapragash Dakshnamurthy</title>
   <meta
     name="description"
-    content="Technical articles and publications by Jayapragash Dakshnamurthy on cloud architecture, microservices, distributed systems, and AI engineering."
+    content="Technical articles, research papers, and publications by Jayapragash Dakshnamurthy on cloud architecture, microservices, distributed systems, AI engineering, and production reliability."
   />
   <meta name="author" content="Jayapragash Dakshnamurthy" />
 
@@ -80,6 +80,11 @@
       color: #a15c00;
     }
 
+    .label.accepted {
+      background: #e8f7ea;
+      color: #1d7a34;
+    }
+
     .meta {
       color: #666;
       font-size: 0.95rem;
@@ -107,6 +112,13 @@
       font-size: 0.95rem;
       margin: 28px 0 8px;
     }
+
+    @media (max-width: 640px) {
+      nav a {
+        display: inline-block;
+        margin-bottom: 8px;
+      }
+    }
   </style>
 </head>
 <body>
@@ -114,15 +126,17 @@
     <nav>
       <a href="index.html">Home</a>
       <a href="articles.html">Articles</a>
-      <a href="index.html#publications">Profiles</a>
+      <a href="index.html#research">Research</a>
+      <a href="index.html#profiles">Profiles</a>
       <a href="index.html#contact">Contact</a>
     </nav>
 
     <section class="section">
       <h1>Articles & Publications</h1>
       <p>
-        A growing collection of technical writing on microservices modernization,
-        production engineering, distributed systems, and AI infrastructure.
+        A growing collection of technical writing and research contributions on
+        microservices modernization, distributed systems, production reliability,
+        AI infrastructure, and secure agentic systems.
       </p>
     </section>
 
@@ -143,16 +157,23 @@
       </div>
 
       <div class="article-card">
-        <span class="label">Published on Substack</span>
-        <h3>Where AI Fails in Production Systems</h3>
-        <div class="meta">Platform: Substack</div>
+        <span class="label">Published on Substack / Medium</span>
+        <h3>Debugging AI Systems: Why Observability Must Evolve</h3>
+        <div class="meta">Platform: Substack / Medium</div>
         <p>
-          Explores the gap between AI-generated code and real-world production system
-          demands such as context, reliability, and operational complexity.
+          Explains why traditional observability is no longer enough for AI systems
+          and why engineering visibility must extend beyond logs into decisions and execution.
         </p>
-        <a class="button" href="https://jayapragashdakshnamurthy.substack.com/p/where-ai-fails-in-production-systems?r=1ob0zw" target="_blank">
-          Read Article
-        </a>
+      </div>
+
+      <div class="article-card">
+        <span class="label">Published on Substack / Medium</span>
+        <h3>Why AI Agents Shouldn’t Hold Credentials</h3>
+        <div class="meta">Platform: Substack / Medium</div>
+        <p>
+          A practical security argument for controlled execution, short-lived scoped tokens,
+          and token vault patterns in agentic AI systems.
+        </p>
       </div>
 
       <div class="article-card">
@@ -160,33 +181,150 @@
         <h3>Why gRPC Is Becoming the Backbone of AI Infrastructure</h3>
         <div class="meta">Platform: Substack</div>
         <p>
-          Analyzes how efficient service-to-service communication impacts performance
-          in distributed AI platforms and modern engineering systems.
+          Analyzes how efficient service-to-service communication impacts performance,
+          latency, and throughput in distributed AI platforms.
         </p>
         <a class="button" href="https://jayapragashdakshnamurthy.substack.com/p/why-grpc-is-becoming-the-backbone?r=1ob0zw" target="_blank">
           Read Article
         </a>
       </div>
+
+      <div class="article-card">
+        <span class="label">Published on Medium</span>
+        <h3>The Hidden Cost of AI Systems: Latency, Retries, and Cascading Failures</h3>
+        <div class="meta">Platform: Medium</div>
+        <p>
+          Examines how seemingly successful AI workflows can still fail in production
+          because of retries, latency amplification, and cascading service failures.
+        </p>
+      </div>
     </section>
 
     <section class="section">
-      <h2>Upcoming Publications</h2>
+      <h2>DZone Submissions</h2>
 
       <div class="article-card">
-        <span class="label review">Under Editorial Review</span>
-        <h3>From Monolith to Microservices: Practical Lessons From Real System Modernization</h3>
+        <span class="label review">In Moderation / Editorial Review</span>
+        <h3>API Gateway vs BFF vs Service Mesh: When to Use What</h3>
         <div class="meta">Platform: DZone</div>
         <p>
-          Submitted to DZone and currently under editorial review.
+          Explains where API Gateway fits, when BFF reduces frontend complexity,
+          and when Service Mesh becomes necessary at scale.
         </p>
       </div>
 
       <div class="article-card">
-        <span class="label review">Under Editorial Review</span>
+        <span class="label review">In Moderation / Editorial Review</span>
+        <h3>API Gateway Pattern: Controlling Traffic in a Microservices World</h3>
+        <div class="meta">Platform: DZone</div>
+        <p>
+          Covers validation, routing, security, and centralized traffic control
+          in modern microservices environments.
+        </p>
+      </div>
+
+      <div class="article-card">
+        <span class="label review">In Moderation / Editorial Review</span>
+        <h3>Why SQLite Can Outperform the Filesystem — And When It Actually Matters</h3>
+        <div class="meta">Platform: DZone</div>
+        <p>
+          Looks at practical cases where SQLite offers better performance and operational
+          characteristics for small-object and metadata-heavy workloads.
+        </p>
+      </div>
+
+      <div class="article-card">
+        <span class="label review">In Moderation / Editorial Review</span>
+        <h3>Why Traditional Observability Fails at Scale — And What Intelligent Observability Fixes</h3>
+        <div class="meta">Platform: DZone</div>
+        <p>
+          Discusses why telemetry alone is not enough and how intelligent observability
+          improves root-cause detection in complex systems.
+        </p>
+      </div>
+
+      <div class="article-card">
+        <span class="label review">In Moderation / Editorial Review</span>
+        <h3>Every Cache Miss Is a Tiny Tax on Your Performance</h3>
+        <div class="meta">Platform: DZone</div>
+        <p>
+          Explains how cache misses create hidden latency, additional backend pressure,
+          and performance degradation at scale.
+        </p>
+      </div>
+
+      <div class="article-card">
+        <span class="label review">In Moderation / Editorial Review</span>
+        <h3>Authorized to Act: Securing AI Agents Using Auth0 Token Vault</h3>
+        <div class="meta">Platform: DZone</div>
+        <p>
+          Shows how token vault architecture can help secure agentic workflows
+          with auditable and controlled access.
+        </p>
+      </div>
+
+      <div class="article-card">
+        <span class="label review">In Moderation / Editorial Review</span>
+        <h3>Designing Adaptive AI Systems: Token Strategies and Execution Patterns</h3>
+        <div class="meta">Platform: DZone</div>
+        <p>
+          Explores token strategy, context handling, and execution control
+          for adaptive AI systems.
+        </p>
+      </div>
+
+      <div class="article-card">
+        <span class="label review">In Moderation / Editorial Review</span>
         <h3>Why gRPC Is Becoming the Backbone of AI Infrastructure</h3>
         <div class="meta">Platform: DZone</div>
         <p>
-          Submitted to DZone and currently under editorial review.
+          Submitted to DZone as part of broader writing on performance-oriented
+          communication patterns in AI systems.
+        </p>
+      </div>
+
+      <div class="article-card">
+        <span class="label review">In Moderation / Editorial Review</span>
+        <h3>From Monolith to Microservices: Practical Lessons From Real System Modernization</h3>
+        <div class="meta">Platform: DZone</div>
+        <p>
+          Submitted to DZone and positioned around practical engineering lessons
+          from real modernization work.
+        </p>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Research Papers & Conference Submissions</h2>
+
+      <div class="article-card">
+        <span class="label review">Submitted for Publication</span>
+        <h3>The Hidden Cost of AI Systems: Latency, Retries, and Cascading Failures in Production Environments</h3>
+        <div class="meta">Journal-Level Research Submission</div>
+        <p>
+          A 7.5-page research paper examining production AI failure modes, including
+          latency amplification, retry storms, cascading failures, and resilience-oriented
+          system design.
+        </p>
+      </div>
+
+      <div class="article-card">
+        <span class="label review">Under Review</span>
+        <h3>Design and Implementation of Secure Agentic AI Systems Using Token Vault Architecture for Real-Time Enterprise Application</h3>
+        <div class="meta">Conference: GAISS 2026</div>
+        <p>
+          Focuses on secure enterprise agentic AI using token vault architecture,
+          scoped credential access, auditability, and controlled execution.
+        </p>
+      </div>
+
+      <div class="article-card">
+        <span class="label review">Active Submission</span>
+        <h3>From EventStorming to Architecture Context Mapping for Scalable Distributed Systems</h3>
+        <div class="meta">Conference: Springer / JCSSE 2026</div>
+        <p>
+          Connects EventStorming and domain-driven design with architecture context
+          mapping for scalable distributed systems.
         </p>
       </div>
     </section>
