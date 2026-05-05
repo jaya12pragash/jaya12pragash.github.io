@@ -1,77 +1,100 @@
-# Jayapragash Dakshnamurthy – Engineering, Writing & Research Portfolio
+# Jayapragash Dakshnamurthy
 
-This repository hosts my personal website showcasing my work across:
-
-- Cloud Architecture & Microservices Modernization
-- Distributed Systems & Production Engineering
-- AI Systems & Secure Agentic Architectures
-- Technical Writing & Research Contributions
+Senior Software Engineer | Cloud-Native Architecture | Distributed Systems | AI Engineering | Research Contributor
 
 ---
 
-## 👨‍💻 About Me
+## 👋 About Me
 
-Senior Software Engineer with 17+ years of experience designing and modernizing
-enterprise platforms in financial and healthcare systems.
+I am a Senior Software Engineer with 17+ years of experience designing and building enterprise systems across healthcare and financial services.
 
-My work focuses on:
+My expertise includes:
 - Cloud-native architecture
-- Distributed system reliability
-- Observability and performance optimization
-- AI-assisted engineering and agentic systems
-
-Alongside engineering, I actively publish technical articles and contribute to
-research in AI systems reliability and scalable architecture.
-
----
-
-## ✍️ Technical Writing
-
-I publish engineering content across multiple platforms:
-
-- **DZone** – Architecture, microservices, observability, and AI systems
-- **Substack** – Long-form engineering insights and real-world lessons
-- **Medium** – Distributed systems, AI engineering, and reliability topics
-
-Topics include:
 - Microservices modernization
-- API architecture (Gateway, BFF, Service Mesh)
-- Observability and debugging AI systems
-- Token security and AI agent design
-- Performance engineering and caching
+- Distributed systems design
+- AI engineering & agentic systems
+- Production reliability & observability
+
+I focus on building scalable, secure, and resilient platforms in regulated environments.
 
 ---
 
-## 📄 Research & Publications
+## ✍️ Publications & Technical Writing
 
-### 🧠 Selected Work
+I actively publish engineering articles and research across multiple platforms:
 
-**The Hidden Cost of AI Systems: Latency, Retries, and Cascading Failures in Production Environments**  
-- 7.5-page research paper  
-- Focus: AI system reliability, latency amplification, retry storms, cascading failures  
-- Status: Under Peer Review  
+### 🔹 DZone
+- Published article on microservices modernization
+- Multiple articles under editorial review on:
+  - API Gateway & Service Mesh
+  - Observability at scale
+  - Caching strategies
+  - AI system design patterns
 
----
-
-### 📚 Conference & Research Submissions
-
-**Design and Implementation of Secure Agentic AI Systems Using Token Vault Architecture**  
-- Conference: GAISS 2026  
-- Focus: Secure AI agents, token vault, controlled execution  
-- Status: Under Review  
-
-**From EventStorming to Architecture Context Mapping for Scalable Distributed Systems**  
-- Conference: Springer / JCSSE 2026  
-- Focus: Domain-driven design → scalable architecture  
-- Status: Active Submission  
+👉 https://dzone.com/users/5503293/jayapragashd.html
 
 ---
 
-## 🏛️ Professional Membership
+### 🔹 Substack
+Long-form engineering articles on:
+- Distributed systems
+- AI infrastructure
+- Production reliability
+- Architecture patterns
 
-- **IEEE Member**  
-  Princeton / Central Jersey Section  
-  (Active membership through 2026)
+👉 https://jayapragashdakshnamurthy.substack.com
+
+---
+
+### 🔹 Medium
+Technical articles to broaden reach and visibility:
+- AI systems
+- Observability
+- Failure patterns
+
+👉 https://medium.com/@jayapragashdakshnamurthy
+
+---
+
+## 📊 Research & Conference Publications
+
+### ✅ Accepted Papers
+
+**IEEE SmartCloud 2026**
+- *The Hidden Cost of AI Systems: Latency, Retries, and Cascading Failures in Production Environments*
+- Focus: latency amplification, retry storms, cascading failures, resilience design
+
+**GAISS 2026 (IEEE Conference on Generative AI for Secure Systems)**
+- *Design and Implementation of Secure Agentic AI Systems Using Token Vault Architecture for Real-Time Enterprise Applications*
+- Focus: secure agentic AI, token vault, controlled execution, auditability
+
+---
+
+### 🔄 Active Research
+
+**Springer / JCSSE 2026**
+- *From EventStorming to Architecture Context Mapping for Scalable Distributed Systems*
+- Domain-driven design + scalable architecture mapping
+
+---
+
+## 🧠 Research Focus Areas
+
+- AI systems reliability
+- Latency amplification & retry storms
+- Distributed system failure modes
+- Secure agentic AI architectures
+- Token-based execution models
+- Observability-driven engineering
+
+---
+
+## 🏗️ Featured Work
+
+- From Monolith to Microservices (DZone + Substack)
+- Debugging AI Systems: Observability Evolution
+- Why AI Agents Shouldn’t Hold Credentials
+- The Hidden Cost of AI Systems (Research + Articles)
 
 ---
 
@@ -83,39 +106,19 @@ Topics include:
 
 ## 🔗 Profiles
 
-- DZone: https://dzone.com/users/5503293/jayapragashd.html  
-- Substack: https://substack.com/@jayapragashdakshnamurthy  
-- Medium: https://medium.com/@jayapragashdakshnamurthy  
-- LinkedIn: https://www.linkedin.com/in/jayapragashd/  
-- GitHub: https://github.com/jaya12pragash  
+- LinkedIn: https://www.linkedin.com/in/jayapragashd/
+- GitHub: https://github.com/jaya12pragash
+- DZone: https://dzone.com/users/5503293/jayapragashd.html
+- Substack: https://jayapragashdakshnamurthy.substack.com
+- Medium: https://medium.com/@jayapragashdakshnamurthy
 
 ---
 
-## 🎯 Focus Areas
+## 📌 Summary
 
-- Distributed Systems & Scalability  
-- AI Systems Reliability  
-- Secure Agentic AI Architectures  
-- Microservices & Modernization  
-- Observability & Performance Engineering  
-
----
-
-## 🚀 Purpose
-
-This repository serves as a centralized portfolio of:
-
-- Engineering work
+My work combines:
+- Real-world engineering experience
 - Public technical writing
-- Research contributions
-- Conference submissions
+- Peer-reviewed research contributions
 
-It reflects a combination of **industry practice + research + public knowledge sharing**.
-
----
-
-## 📌 Notes
-
-- Articles and research are continuously updated
-- New publications and conference submissions are added regularly
-- Focus is on real-world engineering impact and production-ready systems
+focused on solving production-scale challenges in distributed and AI-driven systems.
