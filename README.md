@@ -21,8 +21,6 @@ I focus on building scalable, secure, and resilient platforms in regulated envir
 
 ## ✍️ Publications & Technical Writing
 
-I actively publish engineering articles and research across multiple platforms:
-
 ### 🔹 DZone
 - Published article on microservices modernization
 - Multiple articles under editorial review on:
@@ -67,14 +65,6 @@ Technical articles to broaden reach and visibility:
 **GAISS 2026 (IEEE Conference on Generative AI for Secure Systems)**
 - *Design and Implementation of Secure Agentic AI Systems Using Token Vault Architecture for Real-Time Enterprise Applications*
 - Focus: secure agentic AI, token vault, controlled execution, auditability
-
----
-
-### 🔄 Active Research
-
-**Springer / JCSSE 2026**
-- *From EventStorming to Architecture Context Mapping for Scalable Distributed Systems*
-- Domain-driven design + scalable architecture mapping
 
 ---
 
