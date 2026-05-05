@@ -4,168 +4,38 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Jayapragash Dakshnamurthy | Cloud, Microservices, AI & Research</title>
-  <meta
-    name="description"
-    content="Jayapragash Dakshnamurthy is a Senior Software Engineer, technical author, and research contributor with 17+ years of experience in cloud architecture, microservices modernization, distributed systems, AI engineering, and production reliability."
-  />
-  <meta
-    name="keywords"
-    content="Jayapragash Dakshnamurthy, cloud architecture, microservices, distributed systems, AI engineering, DZone, Substack, Medium, IEEE, Springer, research paper, AI systems reliability"
-  />
+  <meta name="description" content="Jayapragash Dakshnamurthy is a Senior Software Engineer, technical author, and research contributor with 17+ years of experience in cloud architecture, microservices modernization, distributed systems, AI engineering, production reliability, and secure agentic systems." />
+  <meta name="keywords" content="Jayapragash Dakshnamurthy, cloud architecture, microservices, distributed systems, AI engineering, DZone, Substack, Medium, IEEE SmartCloud 2026, GAISS 2026, research paper, AI systems reliability, token vault" />
   <meta name="author" content="Jayapragash Dakshnamurthy" />
-
   <style>
     * { box-sizing: border-box; }
-
-    body {
-      margin: 0;
-      font-family: Arial, Helvetica, sans-serif;
-      background: #f4f6f8;
-      color: #222;
-      line-height: 1.6;
-    }
-
-    .container {
-      max-width: 1100px;
-      margin: 0 auto;
-      padding: 24px;
-    }
-
-    nav, .hero, .section {
-      background: #ffffff;
-      border-radius: 14px;
-      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.06);
-    }
-
-    nav {
-      margin-top: 20px;
-      padding: 16px 20px;
-    }
-
-    nav a {
-      color: #0b66c3;
-      text-decoration: none;
-      font-weight: bold;
-      margin-right: 18px;
-    }
-
+    body { margin: 0; font-family: Arial, Helvetica, sans-serif; background: #f4f6f8; color: #222; line-height: 1.6; }
+    .container { max-width: 1100px; margin: 0 auto; padding: 24px; }
+    nav, .hero, .section { background: #fff; border-radius: 14px; box-shadow: 0 2px 10px rgba(0,0,0,.06); }
+    nav { margin-top: 20px; padding: 16px 20px; }
+    nav a { color: #0b66c3; text-decoration: none; font-weight: bold; margin-right: 18px; }
     nav a:hover { text-decoration: underline; }
-
-    .hero {
-      margin-top: 22px;
-      padding: 36px;
-      background: linear-gradient(135deg, #ffffff 0%, #f5f9ff 100%);
-    }
-
-    .section {
-      margin-top: 22px;
-      padding: 28px;
-    }
-
-    h1 {
-      margin-top: 0;
-      font-size: 2.5rem;
-      color: #1c1c1c;
-    }
-
-    h2 {
-      margin-top: 0;
-      color: #1c1c1c;
-    }
-
-    .subtitle {
-      font-size: 1.12rem;
-      color: #444;
-      margin-bottom: 0;
-      max-width: 920px;
-    }
-
-    .tag-list {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 10px;
-      margin-top: 18px;
-    }
-
-    .tag {
-      background: #eaf3ff;
-      color: #0b66c3;
-      padding: 8px 12px;
-      border-radius: 999px;
-      font-size: 0.95rem;
-      font-weight: bold;
-    }
-
-    .grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-      gap: 18px;
-      margin-top: 16px;
-    }
-
-    .card {
-      background: #f8fafc;
-      border: 1px solid #e6ebf1;
-      border-radius: 12px;
-      padding: 18px;
-    }
-
-    .card h3 {
-      margin-top: 0;
-      font-size: 1.08rem;
-    }
-
-    .stat {
-      font-size: 2rem;
-      font-weight: bold;
-      color: #0b66c3;
-      margin-bottom: 6px;
-    }
-
-    .button {
-      display: inline-block;
-      margin-top: 12px;
-      padding: 10px 14px;
-      border-radius: 10px;
-      background: #0b66c3;
-      color: #fff;
-      text-decoration: none;
-      font-weight: bold;
-    }
-
-    .button:hover {
-      background: #094f97;
-    }
-
-    ul {
-      padding-left: 20px;
-      margin-bottom: 0;
-    }
-
+    .hero { margin-top: 22px; padding: 36px; background: linear-gradient(135deg, #fff 0%, #f5f9ff 100%); }
+    .section { margin-top: 22px; padding: 28px; }
+    h1 { margin-top: 0; font-size: 2.5rem; color: #1c1c1c; }
+    h2 { margin-top: 0; color: #1c1c1c; }
+    .subtitle { font-size: 1.12rem; color: #444; margin-bottom: 0; max-width: 930px; }
+    .tag-list { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 18px; }
+    .tag { background: #eaf3ff; color: #0b66c3; padding: 8px 12px; border-radius: 999px; font-size: .95rem; font-weight: bold; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 18px; margin-top: 16px; }
+    .card { background: #f8fafc; border: 1px solid #e6ebf1; border-radius: 12px; padding: 18px; }
+    .card h3 { margin-top: 0; font-size: 1.08rem; }
+    .stat { font-size: 2rem; font-weight: bold; color: #0b66c3; margin-bottom: 6px; }
+    .label { display: inline-block; margin-bottom: 10px; padding: 6px 10px; border-radius: 999px; font-size: .85rem; font-weight: bold; background: #eaf3ff; color: #0b66c3; }
+    .label.accepted { background: #e8f7ea; color: #1d7a34; }
+    .button { display: inline-block; margin-top: 12px; padding: 10px 14px; border-radius: 10px; background: #0b66c3; color: #fff; text-decoration: none; font-weight: bold; }
+    .button:hover { background: #094f97; }
+    ul { padding-left: 20px; margin-bottom: 0; }
     li { margin-bottom: 10px; }
-
     a { color: #0b66c3; }
-
-    .footer {
-      text-align: center;
-      color: #666;
-      font-size: 0.95rem;
-      margin: 28px 0 8px;
-    }
-
-    .small-note {
-      color: #666;
-      font-size: 0.95rem;
-      margin-top: 10px;
-    }
-
-    @media (max-width: 640px) {
-      h1 { font-size: 2rem; }
-      nav a {
-        display: inline-block;
-        margin-bottom: 8px;
-      }
-    }
+    .footer { text-align: center; color: #666; font-size: .95rem; margin: 28px 0 8px; }
+    .small-note { color: #666; font-size: .95rem; margin-top: 10px; }
+    @media (max-width: 640px) { h1 { font-size: 2rem; } nav a { display: inline-block; margin-bottom: 8px; } }
   </style>
 </head>
 <body>
@@ -182,91 +52,43 @@
     <section class="hero" id="home">
       <h1>Jayapragash Dakshnamurthy</h1>
       <p class="subtitle">
-        Senior Software Engineer, technical author, and research contributor with
-        17+ years of experience in cloud-native architecture, distributed systems,
-        microservices modernization, AI engineering, and production reliability
-        across enterprise financial and healthcare platforms.
+        Senior Software Engineer, technical author, and research contributor with 17+ years of experience in cloud-native architecture, distributed systems, microservices modernization, AI engineering, production reliability, and secure agentic systems across enterprise financial and healthcare platforms.
       </p>
-
       <div class="tag-list">
         <span class="tag">Cloud Architecture</span>
         <span class="tag">Microservices</span>
         <span class="tag">Distributed Systems</span>
         <span class="tag">AI Engineering</span>
         <span class="tag">Technical Writing</span>
-        <span class="tag">Research Publications</span>
+        <span class="tag">Accepted Research</span>
       </div>
     </section>
 
     <section class="section" id="about">
       <h2>About</h2>
-      <p>
-        I specialize in cloud architecture, microservices modernization, distributed
-        systems design, observability, and AI-assisted engineering practices.
-        My work focuses on building scalable, reliable enterprise platforms and
-        modernizing legacy systems in regulated environments.
-      </p>
-      <p>
-        Alongside product engineering, I actively publish articles on modernization,
-        reliability, AI infrastructure, security, and architecture patterns. My public
-        work spans DZone submissions, Substack articles, Medium publications, and
-        research submissions focused on production-ready AI systems, distributed
-        architecture, and secure agentic execution.
-      </p>
-      <p>
-        My research contributions include journal-level and conference submissions
-        focused on AI systems reliability, distributed architecture, and secure
-        enterprise agentic platforms.
-      </p>
+      <p>I specialize in cloud architecture, microservices modernization, distributed systems design, observability, and AI-assisted engineering practices. My work focuses on building scalable, reliable enterprise platforms and modernizing legacy systems in regulated environments.</p>
+      <p>Alongside product engineering, I actively publish articles on modernization, reliability, AI infrastructure, security, and architecture patterns. My public work spans DZone, Substack, Medium, and peer-reviewed conference research focused on production-ready AI systems, distributed architecture, and secure agentic execution.</p>
+      <p>My recent research has been accepted for GAISS 2026 and IEEE SmartCloud 2026, strengthening a body of work at the intersection of enterprise AI, distributed systems reliability, and secure token-based agent execution.</p>
     </section>
 
     <section class="section">
       <h2>Publishing Snapshot</h2>
       <div class="grid">
-        <div class="card">
-          <div class="stat">9+</div>
-          <h3>DZone submissions</h3>
-          <p>Technical writing on architecture, modernization, observability, security, caching, APIs, and AI platform design.</p>
-        </div>
-        <div class="card">
-          <div class="stat">10+</div>
-          <h3>Substack posts</h3>
-          <p>Long-form engineering writing on AI systems, distributed systems, production reliability, and modernization lessons.</p>
-        </div>
-        <div class="card">
-          <div class="stat">9+</div>
-          <h3>Medium articles</h3>
-          <p>Published technical content designed to broaden visibility across architecture and AI engineering topics.</p>
-        </div>
-        <div class="card">
-          <div class="stat">3</div>
-          <h3>Research submissions</h3>
-          <p>Research and conference activity across IEEE-aligned work, GAISS 2026, and Springer/JCSSE 2026.</p>
-        </div>
+        <div class="card"><div class="stat">DZone</div><h3>Published & editorial submissions</h3><p>Technical writing on modernization, observability, security, caching, APIs, and AI platform design.</p></div>
+        <div class="card"><div class="stat">10+</div><h3>Substack posts</h3><p>Long-form engineering writing on AI systems, distributed systems, production reliability, and modernization lessons.</p></div>
+        <div class="card"><div class="stat">9+</div><h3>Medium articles</h3><p>Published technical content designed to broaden visibility across architecture and AI engineering topics.</p></div>
+        <div class="card"><div class="stat">2</div><h3>Accepted research papers</h3><p>Research accepted for GAISS 2026 and IEEE SmartCloud 2026.</p></div>
       </div>
     </section>
 
     <section class="section">
       <h2>Featured Writing</h2>
       <div class="grid">
-        <div class="card">
-          <h3>From Monolith to Microservices</h3>
-          <p>Practical lessons from real enterprise modernization efforts, migration trade-offs, and architecture transformation.</p>
-        </div>
-        <div class="card">
-          <h3>Debugging AI Systems: Why Observability Must Evolve</h3>
-          <p>Why traditional logs are not enough for AI systems and why visibility must extend into decisions and execution.</p>
-        </div>
-        <div class="card">
-          <h3>Why AI Agents Shouldn’t Hold Credentials</h3>
-          <p>A practical security perspective on token vault patterns, controlled execution, and safer agentic workflows.</p>
-        </div>
-        <div class="card">
-          <h3>The Hidden Cost of AI Systems</h3>
-          <p>Latency, retries, and cascading failures are often the real production bottlenecks behind seemingly successful AI workflows.</p>
-        </div>
+        <div class="card"><span class="label accepted">Published on DZone</span><h3>From Monolith to Microservices</h3><p>Practical lessons from real enterprise modernization efforts, migration trade-offs, and architecture transformation.</p></div>
+        <div class="card"><h3>Debugging AI Systems: Why Observability Must Evolve</h3><p>Why traditional logs are not enough for AI systems and why visibility must extend into decisions and execution.</p></div>
+        <div class="card"><h3>Why AI Agents Shouldn’t Hold Credentials</h3><p>A practical security perspective on token vault patterns, controlled execution, and safer agentic workflows.</p></div>
+        <div class="card"><span class="label accepted">Accepted Research</span><h3>The Hidden Cost of AI Systems</h3><p>Latency, retries, and cascading failures are often the real production bottlenecks behind seemingly successful AI workflows.</p></div>
       </div>
-
       <a class="button" href="articles.html">View All Articles</a>
     </section>
 
@@ -274,89 +96,49 @@
       <h2>Research & Conference Publications</h2>
       <div class="grid">
         <div class="card">
-          <h3>Journal-Level Research Submission</h3>
+          <span class="label accepted">Accepted</span>
+          <h3>IEEE SmartCloud 2026</h3>
           <p><strong>The Hidden Cost of AI Systems: Latency, Retries, and Cascading Failures in Production Environments</strong></p>
-          <p>
-            A 7.5-page research paper examining production AI failure modes, including
-            latency amplification, retry storms, cascading failures, and resilience-oriented
-            system design.
-          </p>
-          <p><strong>Status:</strong> Under Peer Review</p>
+          <p>Research contribution examining production AI failure modes, including latency amplification, retry storms, cascading failures, and resilience-oriented system design.</p>
         </div>
-
         <div class="card">
+          <span class="label accepted">Accepted</span>
           <h3>GAISS 2026</h3>
           <p><strong>Design and Implementation of Secure Agentic AI Systems Using Token Vault Architecture for Real-Time Enterprise Application</strong></p>
-          <p>
-            Focuses on secure enterprise agentic AI using token vault architecture,
-            scoped credential access, auditability, and controlled execution.
-          </p>
-          <p><strong>Status:</strong> Submitted / Under Review</p>
+          <p>Accepted research on secure enterprise agentic AI using token vault architecture, scoped credential access, auditability, and controlled execution.</p>
         </div>
-
         <div class="card">
           <h3>Springer / JCSSE 2026</h3>
           <p><strong>From EventStorming to Architecture Context Mapping for Scalable Distributed Systems</strong></p>
-          <p>
-            Connects EventStorming and domain-driven design with architecture context
-            mapping for scalable distributed systems.
-          </p>
-          <p><strong>Status:</strong> Active Submission</p>
+          <p>Connects EventStorming and domain-driven design with architecture context mapping for scalable distributed systems.</p>
+          <p><strong>Status:</strong> Submitted / Active Review</p>
         </div>
-
         <div class="card">
           <h3>IEEE Membership</h3>
           <p><strong>IEEE Member</strong> — Princeton/Central Jersey Section</p>
-          <p>Member #101700735<br />Membership valid through 31 December 2026.</p>
+          <p>Membership valid through 31 December 2026.</p>
         </div>
       </div>
-
-      <p class="small-note">
-        This body of work reflects an ongoing combination of technical writing,
-        production engineering practice, and externally visible research contributions
-        in AI systems, distributed architecture, and secure agentic execution.
-      </p>
+      <p class="small-note">This body of work reflects technical writing, production engineering practice, accepted conference research, and externally visible contributions in AI systems, distributed architecture, and secure agentic execution.</p>
     </section>
 
     <section class="section" id="profiles">
       <h2>Publications & Profiles</h2>
       <ul>
-        <li>
-          <a href="https://dzone.com/users/5503293/jayapragashd.html" target="_blank">DZone Technical Articles</a>
-        </li>
-        <li>
-          <a href="https://substack.com/@jayapragashdakshnamurthy" target="_blank">Substack Engineering Blog</a>
-        </li>
-        <li>
-          <a href="https://medium.com/@jayapragashdakshnamurthy" target="_blank">Medium Publications</a>
-        </li>
-        <li>
-          <a href="https://www.linkedin.com/in/jayapragashd/" target="_blank">LinkedIn Engineering Posts</a>
-        </li>
-        <li>
-          <a href="https://github.com/jaya12pragash" target="_blank">GitHub Profile</a>
-        </li>
+        <li><a href="https://dzone.com/users/5503293/jayapragashd.html" target="_blank">DZone Technical Articles</a></li>
+        <li><a href="https://substack.com/@jayapragashdakshnamurthy" target="_blank">Substack Engineering Blog</a></li>
+        <li><a href="https://medium.com/@jayapragashdakshnamurthy" target="_blank">Medium Publications</a></li>
+        <li><a href="https://www.linkedin.com/in/jayapragashd/" target="_blank">LinkedIn Engineering Posts</a></li>
+        <li><a href="https://github.com/jaya12pragash" target="_blank">GitHub Profile</a></li>
       </ul>
     </section>
 
     <section class="section" id="contact">
       <h2>Contact</h2>
-      <p>
-        GitHub:
-        <a href="https://github.com/jaya12pragash" target="_blank">github.com/jaya12pragash</a>
-      </p>
-      <p>
-        LinkedIn:
-        <a href="https://www.linkedin.com/in/jayapragashd/" target="_blank">linkedin.com/in/jayapragashd</a>
-      </p>
-      <p>
-        Substack:
-        <a href="https://substack.com/@jayapragashdakshnamurthy" target="_blank">substack.com/@jayapragashdakshnamurthy</a>
-      </p>
-      <p>
-        Medium:
-        <a href="https://medium.com/@jayapragashdakshnamurthy" target="_blank">medium.com/@jayapragashdakshnamurthy</a>
-      </p>
+      <p>GitHub: <a href="https://github.com/jaya12pragash" target="_blank">github.com/jaya12pragash</a></p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/jayapragashd/" target="_blank">linkedin.com/in/jayapragashd</a></p>
+      <p>Substack: <a href="https://substack.com/@jayapragashdakshnamurthy" target="_blank">substack.com/@jayapragashdakshnamurthy</a></p>
+      <p>Medium: <a href="https://medium.com/@jayapragashdakshnamurthy" target="_blank">medium.com/@jayapragashdakshnamurthy</a></p>
     </section>
 
     <div class="footer">© 2026 Jayapragash Dakshnamurthy</div>
