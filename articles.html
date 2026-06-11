@@ -4,29 +4,41 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Articles | Jayapragash Dakshnamurthy</title>
-  <meta name="description" content="Technical articles, research papers, and publications by Jayapragash Dakshnamurthy on cloud architecture, microservices, distributed systems, AI engineering, secure agentic systems, and production reliability." />
+  <meta name="description" content="Technical articles, LinkedIn Newsletter editions, research papers, reviewer roles, and publications by Jayapragash Dakshnamurthy on cloud architecture, microservices, distributed systems, AI engineering, secure agentic systems, and production reliability." />
   <meta name="author" content="Jayapragash Dakshnamurthy" />
   <style>
     * { box-sizing: border-box; }
     body { margin: 0; font-family: Arial, Helvetica, sans-serif; background: #f4f6f8; color: #222; line-height: 1.6; }
-    .container { max-width: 1000px; margin: 0 auto; padding: 24px; }
-    nav, .section { background: #fff; border-radius: 14px; box-shadow: 0 2px 10px rgba(0,0,0,.06); }
+    .container { max-width: 1100px; margin: 0 auto; padding: 24px; }
+    nav, .hero, .section { background: #fff; border-radius: 14px; box-shadow: 0 2px 10px rgba(0,0,0,.06); }
     nav { margin-top: 20px; padding: 16px 20px; }
     nav a { color: #0b66c3; text-decoration: none; font-weight: bold; margin-right: 18px; }
     nav a:hover { text-decoration: underline; }
+    .hero { margin-top: 22px; padding: 36px; background: linear-gradient(135deg, #fff 0%, #f5f9ff 100%); }
     .section { margin-top: 22px; padding: 28px; }
-    h1, h2, h3 { color: #1c1c1c; }
-    .article-card { background: #f8fafc; border: 1px solid #e6ebf1; border-radius: 12px; padding: 20px; margin-top: 16px; }
+    h1 { margin-top: 0; font-size: 2.5rem; color: #1c1c1c; }
+    h2 { margin-top: 0; color: #1c1c1c; }
+    h3 { color: #1c1c1c; }
+    .subtitle { font-size: 1.12rem; color: #444; margin-bottom: 0; max-width: 930px; }
+    .tag-list { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 18px; }
+    .tag { background: #eaf3ff; color: #0b66c3; padding: 8px 12px; border-radius: 999px; font-size: .95rem; font-weight: bold; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 18px; margin-top: 16px; }
+    .card, .article-card { background: #f8fafc; border: 1px solid #e6ebf1; border-radius: 12px; padding: 18px; margin-top: 16px; }
+    .card h3, .article-card h3 { margin-top: 0; font-size: 1.08rem; }
+    .stat { font-size: 2rem; font-weight: bold; color: #0b66c3; margin-bottom: 6px; }
     .label { display: inline-block; margin-bottom: 10px; padding: 6px 10px; border-radius: 999px; font-size: .85rem; font-weight: bold; background: #eaf3ff; color: #0b66c3; }
-    .label.review { background: #fff4e5; color: #a15c00; }
     .label.accepted { background: #e8f7ea; color: #1d7a34; }
-    .label.revision { background: #f1f1f1; color: #555; }
+    .label.review { background: #fff4e5; color: #a15c00; }
+    .label.role { background: #eef0ff; color: #3730a3; }
     .meta { color: #666; font-size: .95rem; margin-bottom: 10px; }
-    .button { display: inline-block; margin-top: 10px; padding: 10px 14px; border-radius: 10px; background: #0b66c3; color: #fff; text-decoration: none; font-weight: bold; }
+    .button { display: inline-block; margin-top: 12px; padding: 10px 14px; border-radius: 10px; background: #0b66c3; color: #fff; text-decoration: none; font-weight: bold; }
     .button:hover { background: #094f97; }
+    ul { padding-left: 20px; margin-bottom: 0; }
+    li { margin-bottom: 10px; }
+    a { color: #0b66c3; }
     .footer { text-align: center; color: #666; font-size: .95rem; margin: 28px 0 8px; }
-    @media (max-width: 640px) { nav a { display: inline-block; margin-bottom: 8px; } }
-  </style>
+    @media (max-width: 640px) { h1 { font-size: 2rem; } nav a { display: inline-block; margin-bottom: 8px; } }
+</style>
 </head>
 <body>
   <div class="container">
@@ -34,111 +46,63 @@
       <a href="index.html">Home</a>
       <a href="articles.html">Articles</a>
       <a href="index.html#research">Research</a>
+      <a href="index.html#service">Reviewer / TPC</a>
       <a href="index.html#profiles">Profiles</a>
       <a href="index.html#contact">Contact</a>
     </nav>
 
     <section class="section">
-      <h1>Articles & Publications</h1>
-      <p>This page highlights industry articles and accepted research contributions across distributed systems, AI engineering, secure agentic systems, and production reliability.</p>
+      <h1>Articles, Research & Technical Service</h1>
+      <p>This page highlights published technical writing, LinkedIn Newsletter work, DZone articles, IEEE Access submissions, accepted conference research, and reviewer / Technical Program Committee participation.</p>
     </section>
 
     <section class="section">
-      <h2>Selected Work</h2>
-      <div class="article-card">
-        <span class="label accepted">Accepted Research</span>
-        <h3>The Hidden Cost of AI Systems: Latency, Retries, and Cascading Failures in Production Environments</h3>
-        <div class="meta">Conference: IEEE SmartCloud 2026</div>
-        <p>Research paper analyzing production AI failure patterns, including latency amplification, retry storms, cascading failures, and resilience-driven architecture.</p>
-      </div>
-      <div class="article-card">
-        <span class="label accepted">Accepted Research</span>
-        <h3>Design and Implementation of Secure Agentic AI Systems Using Token Vault Architecture for Real-Time Enterprise Application</h3>
-        <div class="meta">Conference: GAISS 2026</div>
-        <p>Accepted paper focused on secure enterprise agentic AI using token vault architecture, scoped credentials, auditability, and controlled execution.</p>
+      <h2>Latest Highlights</h2>
+      <div class="grid">
+        <div class="card"><div class="stat">3.2K</div><h3>DZone pageviews</h3><p>DZone profile currently shows 2 published articles and approximately 3.2K pageviews.</p></div>
+        <div class="card"><div class="stat">2</div><h3>Published DZone articles</h3><p>Recent DZone articles cover cache performance and monolith-to-microservices modernization.</p></div>
+        <div class="card"><div class="stat">2</div><h3>IEEE Access manuscripts</h3><p>Two IEEE Access regular manuscripts are under review.</p></div>
+        <div class="card"><div class="stat">TPC</div><h3>Reviewer / committee service</h3><p>GAISS 2026 subreviewer / external reviewer role and technical committee participation.</p></div>
       </div>
     </section>
 
     <section class="section">
-      <h2>Published Articles</h2>
-      <div class="article-card">
-        <span class="label accepted">Published on DZone</span>
-        <h3>From Monolith to Microservices: Practical Lessons From Real System Modernization</h3>
-        <div class="meta">Platform: DZone</div>
-        <p>Practical lessons from enterprise modernization, including migration strategy, system boundaries, operational trade-offs, and real-world architecture challenges.</p>
-        <a class="button" href="https://dzone.com/users/5503293/jayapragashd.html" target="_blank">View on DZone</a>
-      </div>
-      <div class="article-card">
-        <span class="label">Published on Substack</span>
-        <h3>From Monolith to Microservices: Practical Lessons From Real System Modernization</h3>
-        <div class="meta">Platform: Substack</div>
-        <p>Practical insights on transforming legacy systems into scalable microservices in enterprise environments.</p>
-        <a class="button" href="https://jayapragashdakshnamurthy.substack.com/p/from-monolith-to-microservices-the?r=1ob0zw" target="_blank">Read Article</a>
-      </div>
-      <div class="article-card">
-        <span class="label">Published on Substack / Medium</span>
-        <h3>Debugging AI Systems: Why Observability Must Evolve</h3>
-        <div class="meta">Platform: Substack / Medium</div>
-        <p>Explains why traditional observability is no longer enough for AI systems and why engineering visibility must extend beyond logs into decisions and execution.</p>
-      </div>
-      <div class="article-card">
-        <span class="label">Published on Substack / Medium</span>
-        <h3>Why AI Agents Shouldn’t Hold Credentials</h3>
-        <div class="meta">Platform: Substack / Medium</div>
-        <p>A practical security argument for controlled execution, short-lived scoped tokens, and token vault patterns in agentic AI systems.</p>
-      </div>
-      <div class="article-card">
-        <span class="label">Published on Substack</span>
-        <h3>Why gRPC Is Becoming the Backbone of AI Infrastructure</h3>
-        <div class="meta">Platform: Substack</div>
-        <p>Analyzes how efficient service-to-service communication impacts performance, latency, and throughput in distributed AI platforms.</p>
-        <a class="button" href="https://jayapragashdakshnamurthy.substack.com/p/why-grpc-is-becoming-the-backbone?r=1ob0zw" target="_blank">Read Article</a>
-      </div>
-      <div class="article-card">
-        <span class="label">Published on Medium</span>
-        <h3>The Hidden Cost of AI Systems: Latency, Retries, and Cascading Failures</h3>
-        <div class="meta">Platform: Medium</div>
-        <p>Examines how seemingly successful AI workflows can still fail in production because of retries, latency amplification, and cascading service failures.</p>
-      </div>
+      <h2>Published DZone Articles</h2>
+      <div class="article-card"><span class="label accepted">Published on DZone</span><h3>Every Cache Miss Is a Tiny Tax on Your Performance</h3><div class="meta">Published: June 1, 2026 · DZone</div><p>Cache misses add latency, load, and cost. This article explains how cache hit ratio, backend pressure, and performance behavior affect systems at scale.</p><a class="button" href="https://dzone.com/users/5503293/jayapragashd.html" target="_blank">View on DZone</a></div>
+      <div class="article-card"><span class="label accepted">Published on DZone</span><h3>From Monolith to Microservices: Practical Lessons From Real System Modernization</h3><div class="meta">Published: May 5, 2026 · DZone</div><p>Practical lessons from enterprise modernization, including migration strategy, system boundaries, observability, DevOps, data management, and architecture trade-offs.</p><a class="button" href="https://dzone.com/users/5503293/jayapragashd.html" target="_blank">View on DZone</a></div>
     </section>
 
     <section class="section">
-      <h2>DZone Articles & Editorial Pipeline</h2>
-      <div class="article-card"><span class="label review">In Editorial Review</span><h3>API Gateway vs BFF vs Service Mesh: When to Use What</h3><div class="meta">Platform: DZone</div><p>Explains where API Gateway fits, when BFF reduces frontend complexity, and when Service Mesh becomes necessary at scale.</p></div>
-      <div class="article-card"><span class="label review">In Editorial Review</span><h3>API Gateway Pattern: Controlling Traffic in a Microservices World</h3><div class="meta">Platform: DZone</div><p>Covers validation, routing, security, and centralized traffic control in modern microservices environments.</p></div>
-      <div class="article-card"><span class="label review">In Editorial Review</span><h3>Why SQLite Can Outperform the Filesystem — And When It Actually Matters</h3><div class="meta">Platform: DZone</div><p>Looks at practical cases where SQLite offers better performance and operational characteristics for small-object and metadata-heavy workloads.</p></div>
-      <div class="article-card"><span class="label review">In Editorial Review</span><h3>Why Traditional Observability Fails at Scale — And What Intelligent Observability Fixes</h3><div class="meta">Platform: DZone</div><p>Discusses why telemetry alone is not enough and how intelligent observability improves root-cause detection in complex systems.</p></div>
-      <div class="article-card"><span class="label review">In Editorial Review</span><h3>Every Cache Miss Is a Tiny Tax on Your Performance</h3><div class="meta">Platform: DZone</div><p>Explains how cache misses create hidden latency, additional backend pressure, and performance degradation at scale.</p></div>
-      <div class="article-card"><span class="label review">In Editorial Review</span><h3>Authorized to Act: Securing AI Agents Using Auth0 Token Vault</h3><div class="meta">Platform: DZone</div><p>Shows how token vault architecture can help secure agentic workflows with auditable and controlled access.</p></div>
-      <div class="article-card"><span class="label revision">Editorial Revision</span><h3>Designing Adaptive AI Systems: Token Strategies and Execution Patterns</h3><div class="meta">Platform: DZone</div><p>Being refined for editorial fit, with a focus on token strategy, context handling, and execution control for adaptive AI systems.</p></div>
-      <div class="article-card"><span class="label revision">Editorial Revision</span><h3>Why gRPC Is Becoming the Backbone of AI Infrastructure</h3><div class="meta">Platform: DZone</div><p>Being refined for editorial fit as part of broader writing on performance-oriented communication patterns in AI systems.</p></div>
+      <h2>LinkedIn Newsletter & Engineering Posts</h2>
+      <div class="article-card"><span class="label">LinkedIn Newsletter</span><h3>Reliable AI Systems</h3><div class="meta">Platform: LinkedIn</div><p>Newsletter focused on production AI systems, why AI systems fail even when models work, observability gaps, reliability practices, and architecture lessons for secure and scalable AI platforms.</p><a class="button" href="https://www.linkedin.com/in/jayapragashd/" target="_blank">View LinkedIn Profile</a></div>
+      <div class="article-card"><span class="label">LinkedIn / Engineering Writing</span><h3>From Monolith to Microservices — Practical Engineering Lessons</h3><p>Engineering posts and newsletter content translating real modernization experience into practical architecture guidance.</p></div>
+    </section>
+
+    <section class="section">
+      <h2>Substack & Medium Articles</h2>
+      <div class="article-card"><span class="label">Published on Substack</span><h3>From Monolith to Microservices: Practical Lessons From Real System Modernization</h3><p>Practical insights on transforming legacy systems into scalable microservices in enterprise environments.</p><a class="button" href="https://jayapragashdakshnamurthy.substack.com/p/from-monolith-to-microservices-the?r=1ob0zw" target="_blank">Read Article</a></div>
+      <div class="article-card"><span class="label">Published on Substack / Medium</span><h3>Debugging AI Systems: Why Observability Must Evolve</h3><p>Explains why traditional observability is no longer enough for AI systems and why engineering visibility must extend beyond logs into decisions and execution.</p></div>
+      <div class="article-card"><span class="label">Published on Substack / Medium</span><h3>Why AI Agents Shouldn’t Hold Credentials</h3><p>A practical security argument for controlled execution, short-lived scoped tokens, and token vault patterns in agentic AI systems.</p></div>
+      <div class="article-card"><span class="label">Published on Medium</span><h3>The Hidden Cost of AI Systems: Latency, Retries, and Cascading Failures</h3><p>Examines how seemingly successful AI workflows can still fail in production because of retries, latency amplification, and cascading service failures.</p></div>
+    </section>
+
+    <section class="section">
+      <h2>IEEE Access Manuscripts</h2>
+      <div class="article-card"><span class="label review">Under Review — Submission 2</span><h3>Hybrid Edge–Cloud Graph Attention Framework for Dependency-Aware Anomaly Detection and Root Cause Localization in Microservice Systems</h3><div class="meta">Journal: IEEE Access · Manuscript ID: Access-2026-27667 · Submitted: June 8, 2026</div><p>Research on dependency-aware anomaly detection and root cause localization using a hybrid edge-cloud graph attention framework for microservice systems.</p></div>
+      <div class="article-card"><span class="label review">Under Review</span><h3>Weight-Only Spectral Detection of Neural Network Overfitting During Long-Horizon Grokking Using Random Matrix Theory</h3><div class="meta">Journal: IEEE Access · Manuscript ID: Access-2026-23843 · Submitted: May 19, 2026</div><p>Research exploring weight-only spectral indicators for neural network overfitting during long-horizon grokking using Random Matrix Theory.</p></div>
     </section>
 
     <section class="section">
       <h2>Research Papers & Conference Publications</h2>
-      <div class="article-card">
-        <span class="label accepted">Accepted</span>
-        <h3>The Hidden Cost of AI Systems: Latency, Retries, and Cascading Failures in Production Environments</h3>
-        <div class="meta">Conference: IEEE SmartCloud 2026</div>
-        <p>Research contribution examining production AI failure modes, including latency amplification, retry storms, cascading failures, and resilience-oriented system design.</p>
-      </div>
-      <div class="article-card">
-        <span class="label accepted">Accepted</span>
-        <h3>Design and Implementation of Secure Agentic AI Systems Using Token Vault Architecture for Real-Time Enterprise Application</h3>
-        <div class="meta">Conference: GAISS 2026</div>
-        <p>Accepted research contribution focused on secure enterprise agentic AI using token vault architecture, scoped credential access, auditability, and controlled execution.</p>
-      </div>
-      <div class="article-card">
-      <span class="label review">Submitted / Under Review</span>
-        <h3>Observability-Driven Adaptive Failure Containment in Distributed AI Systems: An Experimental Study of Retries, Circuit Breakers, and Latency Amplification</h3>
-        <div class="meta">Conference: ICMACC 2026</div>
-        <p>
-          Research focused on failure containment strategies in distributed AI systems,
-          analyzing retry amplification, circuit breaker behavior, and latency propagation.
-          The study explores observability-driven approaches to improve resilience and
-          limit cascading failures in production environments.
-        </p>
-      </div>
+      <div class="article-card"><span class="label accepted">Accepted</span><h3>The Hidden Cost of AI Systems: Latency, Retries, and Cascading Failures in Production Environments</h3><div class="meta">Conference: IEEE SmartCloud 2026</div><p>Research contribution examining production AI failure modes, including latency amplification, retry storms, cascading failures, and resilience-oriented system design.</p></div>
+      <div class="article-card"><span class="label accepted">Accepted</span><h3>Design and Implementation of Secure Agentic AI Systems Using Token Vault Architecture for Real-Time Enterprise Applications</h3><div class="meta">Conference: GAISS 2026</div><p>Accepted research contribution focused on secure enterprise agentic AI using token vault architecture, scoped credential access, auditability, and controlled execution.</p></div>
+      <div class="article-card"><span class="label review">Submitted / Under Review</span><h3>Observability-Driven Adaptive Failure Containment in Distributed AI Systems: An Experimental Study of Retries, Circuit Breakers, and Latency Amplification</h3><div class="meta">Conference: ICMACC 2026</div><p>Research focused on failure containment strategies in distributed AI systems, analyzing retry amplification, circuit breaker behavior, and latency propagation.</p></div>
+    </section>
+
+    <section class="section">
+      <h2>Reviewer Role & Technical Program Committee</h2>
+      <div class="article-card"><span class="label role">GAISS 2026</span><h3>Subreviewer / External Reviewer</h3><p>Reviewer participation in GAISS 2026, supporting technical review of submissions related to secure systems, AI, and emerging software architecture.</p></div>
+      <div class="article-card"><span class="label role">Technical Program Committee</span><h3>Technical Committee Participation</h3><p>Professional service aligned with secure AI systems, microservices, observability, production reliability, and enterprise-scale distributed architecture.</p></div>
     </section>
 
     <div class="footer">© 2026 Jayapragash Dakshnamurthy</div>
