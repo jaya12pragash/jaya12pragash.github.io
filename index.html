@@ -4,8 +4,8 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Jayapragash Dakshnamurthy | Cloud, Microservices, AI & Research</title>
-  <meta name="description" content="Jayapragash Dakshnamurthy is a Senior Software Engineer, technical author, and research contributor with 17+ years of experience in cloud architecture, microservices modernization, distributed systems, AI engineering, production reliability, and secure agentic systems." />
-  <meta name="keywords" content="Jayapragash Dakshnamurthy, cloud architecture, microservices, distributed systems, AI engineering, DZone, Substack, Medium, IEEE SmartCloud 2026, GAISS 2026, research paper, AI systems reliability, token vault" />
+  <meta name="description" content="Jayapragash Dakshnamurthy is a Senior Software Engineer, independent researcher, technical author, reviewer, and Technical Program Committee contributor focused on cloud architecture, microservices, distributed systems, AI engineering, and production reliability." />
+  <meta name="keywords" content="Jayapragash Dakshnamurthy, Senior Software Engineer, Independent Researcher, DZone, LinkedIn Newsletter, IEEE Access, GAISS 2026, Technical Program Committee, SmartCloud 2026, microservices, AI reliability, root cause analysis" />
   <meta name="author" content="Jayapragash Dakshnamurthy" />
   <style>
     * { box-sizing: border-box; }
@@ -19,24 +19,27 @@
     .section { margin-top: 22px; padding: 28px; }
     h1 { margin-top: 0; font-size: 2.5rem; color: #1c1c1c; }
     h2 { margin-top: 0; color: #1c1c1c; }
+    h3 { color: #1c1c1c; }
     .subtitle { font-size: 1.12rem; color: #444; margin-bottom: 0; max-width: 930px; }
     .tag-list { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 18px; }
     .tag { background: #eaf3ff; color: #0b66c3; padding: 8px 12px; border-radius: 999px; font-size: .95rem; font-weight: bold; }
     .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 18px; margin-top: 16px; }
-    .card { background: #f8fafc; border: 1px solid #e6ebf1; border-radius: 12px; padding: 18px; }
-    .card h3 { margin-top: 0; font-size: 1.08rem; }
+    .card, .article-card { background: #f8fafc; border: 1px solid #e6ebf1; border-radius: 12px; padding: 18px; margin-top: 16px; }
+    .card h3, .article-card h3 { margin-top: 0; font-size: 1.08rem; }
     .stat { font-size: 2rem; font-weight: bold; color: #0b66c3; margin-bottom: 6px; }
     .label { display: inline-block; margin-bottom: 10px; padding: 6px 10px; border-radius: 999px; font-size: .85rem; font-weight: bold; background: #eaf3ff; color: #0b66c3; }
     .label.accepted { background: #e8f7ea; color: #1d7a34; }
+    .label.review { background: #fff4e5; color: #a15c00; }
+    .label.role { background: #eef0ff; color: #3730a3; }
+    .meta { color: #666; font-size: .95rem; margin-bottom: 10px; }
     .button { display: inline-block; margin-top: 12px; padding: 10px 14px; border-radius: 10px; background: #0b66c3; color: #fff; text-decoration: none; font-weight: bold; }
     .button:hover { background: #094f97; }
     ul { padding-left: 20px; margin-bottom: 0; }
     li { margin-bottom: 10px; }
     a { color: #0b66c3; }
     .footer { text-align: center; color: #666; font-size: .95rem; margin: 28px 0 8px; }
-    .small-note { color: #666; font-size: .95rem; margin-top: 10px; }
     @media (max-width: 640px) { h1 { font-size: 2rem; } nav a { display: inline-block; margin-bottom: 8px; } }
-  </style>
+</style>
 </head>
 <body>
   <div class="container">
@@ -45,101 +48,74 @@
       <a href="#about">About</a>
       <a href="articles.html">Articles</a>
       <a href="#research">Research</a>
+      <a href="#service">Reviewer / TPC</a>
       <a href="#profiles">Profiles</a>
       <a href="#contact">Contact</a>
     </nav>
 
     <section class="hero" id="home">
       <h1>Jayapragash Dakshnamurthy</h1>
-      <p class="subtitle">
-        Senior Software Engineer, technical author, and research contributor with 17+ years of experience in cloud-native architecture, distributed systems, microservices modernization, AI engineering, production reliability, and secure agentic systems across enterprise financial and healthcare platforms.
-      </p>
+      <p class="subtitle">Senior Software Engineer and Independent Researcher with 18+ years of experience in cloud-native architecture, distributed systems, microservices modernization, AI engineering, production reliability, and secure agentic systems across enterprise financial and healthcare platforms.</p>
       <div class="tag-list">
-        <span class="tag">Cloud Architecture</span>
-        <span class="tag">Microservices</span>
-        <span class="tag">Distributed Systems</span>
-        <span class="tag">AI Engineering</span>
-        <span class="tag">Technical Writing</span>
-        <span class="tag">Accepted Research</span>
+        <span class="tag">Senior Software Engineer</span><span class="tag">Independent Researcher</span><span class="tag">Technical Author</span><span class="tag">IEEE Access Author</span><span class="tag">GAISS 2026 Reviewer</span><span class="tag">Technical Program Committee</span>
       </div>
     </section>
 
     <section class="section" id="about">
       <h2>About</h2>
       <p>I specialize in cloud architecture, microservices modernization, distributed systems design, observability, and AI-assisted engineering practices. My work focuses on building scalable, reliable enterprise platforms and modernizing legacy systems in regulated environments.</p>
-      <p>Alongside product engineering, I actively publish articles on modernization, reliability, AI infrastructure, security, and architecture patterns. My public work spans DZone, Substack, Medium, and peer-reviewed conference research focused on production-ready AI systems, distributed architecture, and secure agentic execution.</p>
-      <p>My recent research has been accepted for GAISS 2026 and IEEE SmartCloud 2026, strengthening a body of work at the intersection of enterprise AI, distributed systems reliability, and secure token-based agent execution.</p>
+      <p>Alongside product engineering, I publish technical articles and newsletter editions on modernization, reliability, AI infrastructure, security, and architecture patterns. My public work spans DZone, LinkedIn Newsletter, Substack, Medium, and peer-reviewed research submissions.</p>
+      <p>My current research focuses on dependency-aware anomaly detection, root cause localization, secure agentic execution, token vault architecture, latency amplification, and production reliability in distributed AI and microservice systems.</p>
     </section>
 
     <section class="section">
-      <h2>Publishing Snapshot</h2>
+      <h2>Current Snapshot</h2>
       <div class="grid">
-        <div class="card"><div class="stat">DZone</div><h3>Published & editorial submissions</h3><p>Technical writing on modernization, observability, security, caching, APIs, and AI platform design.</p></div>
-        <div class="card"><div class="stat">10+</div><h3>Substack posts</h3><p>Long-form engineering writing on AI systems, distributed systems, production reliability, and modernization lessons.</p></div>
-        <div class="card"><div class="stat">9+</div><h3>Medium articles</h3><p>Published technical content designed to broaden visibility across architecture and AI engineering topics.</p></div>
-        <div class="card"><div class="stat">2</div><h3>Accepted research papers</h3><p>Research accepted for GAISS 2026 and IEEE SmartCloud 2026.</p></div>
+        <div class="card"><div class="stat">2</div><h3>DZone published articles</h3><p>Public DZone profile includes published work on microservices modernization and cache performance, with roughly 3.2K pageviews.</p></div>
+        <div class="card"><div class="stat">2</div><h3>IEEE Access submissions</h3><p>Two regular manuscripts are currently under review, including Submission 2 for the hybrid edge-cloud graph attention framework.</p></div>
+        <div class="card"><div class="stat">GAISS</div><h3>Reviewer / external reviewer</h3><p>EasyChair role includes subreviewer / external reviewer and author roles for GAISS 2026.</p></div>
+        <div class="card"><div class="stat">Newsletter</div><h3>LinkedIn engineering writing</h3><p>Ongoing LinkedIn Newsletter and engineering posts focused on reliable AI systems, modernization, and architecture leadership.</p></div>
       </div>
     </section>
 
     <section class="section">
       <h2>Featured Writing</h2>
       <div class="grid">
-        <div class="card"><span class="label accepted">Published on DZone</span><h3>From Monolith to Microservices</h3><p>Practical lessons from real enterprise modernization efforts, migration trade-offs, and architecture transformation.</p></div>
-        <div class="card"><h3>Debugging AI Systems: Why Observability Must Evolve</h3><p>Why traditional logs are not enough for AI systems and why visibility must extend into decisions and execution.</p></div>
-        <div class="card"><h3>Why AI Agents Shouldn’t Hold Credentials</h3><p>A practical security perspective on token vault patterns, controlled execution, and safer agentic workflows.</p></div>
-        <div class="card"><span class="label accepted">Accepted Research</span><h3>The Hidden Cost of AI Systems</h3><p>Latency, retries, and cascading failures are often the real production bottlenecks behind seemingly successful AI workflows.</p></div>
+        <div class="card"><span class="label accepted">Published on DZone</span><h3>Every Cache Miss Is a Tiny Tax on Your Performance</h3><p>Cache misses add latency, load, and cost. The article explains how improving cache hit ratio reduces unnecessary backend work and keeps systems fast at scale.</p></div>
+        <div class="card"><span class="label accepted">Published on DZone</span><h3>From Monolith to Microservices</h3><p>Practical lessons from real enterprise modernization efforts, migration trade-offs, observability, DevOps, and data management challenges.</p></div>
+        <div class="card"><span class="label">LinkedIn Newsletter</span><h3>Reliable AI Systems</h3><p>Newsletter writing on why AI systems fail in production, how observability must evolve, and how engineering teams can build safer AI platforms.</p></div>
+        <div class="card"><span class="label accepted">Accepted Research</span><h3>The Hidden Cost of AI Systems</h3><p>Research on latency, retries, and cascading failures as real production bottlenecks behind seemingly successful AI workflows.</p></div>
       </div>
-      <a class="button" href="articles.html">View All Articles</a>
+      <a class="button" href="articles.html">View Articles & Publications</a>
     </section>
 
-   <section class="section" id="research">
-  <h2>Selected Publications</h2>
+    <section class="section" id="research">
+      <h2>Selected Research & Publications</h2>
+      <div class="card"><span class="label review">IEEE Access — Under Review</span><p><strong>Hybrid Edge–Cloud Graph Attention Framework for Dependency-Aware Anomaly Detection and Root Cause Localization in Microservice Systems</strong><br />Manuscript ID: Access-2026-27667 · Regular Manuscript · Submission 2</p></div>
+      <div class="card"><span class="label review">IEEE Access — Under Review</span><p><strong>Weight-Only Spectral Detection of Neural Network Overfitting During Long-Horizon Grokking Using Random Matrix Theory</strong><br />Manuscript ID: Access-2026-23843 · Regular Manuscript</p></div>
+      <div class="card"><span class="label accepted">Accepted</span><p><strong>The Hidden Cost of AI Systems: Latency, Retries, and Cascading Failures in Production Environments</strong><br />IEEE SmartCloud 2026</p></div>
+      <div class="card"><span class="label accepted">Accepted</span><p><strong>Design and Implementation of Secure Agentic AI Systems Using Token Vault Architecture for Real-Time Enterprise Applications</strong><br />GAISS 2026 — IEEE Conference on Generative AI for Secure Systems</p></div>
+      <div class="card"><span class="label review">Under Review</span><p><strong>Observability-Driven Adaptive Failure Containment in Distributed AI Systems</strong><br />ICMACC 2026</p></div>
+    </section>
 
-  <div class="card">
-    <p>
-      <strong>Jayapragash Dakshnamurthy</strong><br />
-      <em>The Hidden Cost of AI Systems: Latency, Retries, and Cascading Failures in Production Environments</em><br />
-      IEEE SmartCloud 2026<br />
-      <span style="color:#1d7a34; font-weight:bold;">Accepted</span>
-    </p>
-  </div>
-
-  <div class="card">
-    <p>
-      <strong>Jayapragash Dakshnamurthy</strong><br />
-      <em>Design and Implementation of Secure Agentic AI Systems Using Token Vault Architecture for Real-Time Enterprise Applications</em><br />
-      GAISS 2026 (IEEE Conference on Generative AI for Secure Systems)<br />
-      <span style="color:#1d7a34; font-weight:bold;">Accepted</span>
-    </p>
-  </div>
-
-  <div class="card">
-    <p>
-      <strong>Jayapragash Dakshnamurthy</strong><br />
-      <em>Observability-Driven Adaptive Failure Containment in Distributed AI Systems: An Experimental Study of Retries, Circuit Breakers, and Latency Amplification</em><br />
-      ICMACC 2026<br />
-      <span style="color:#a15c00; font-weight:bold;">Under Review</span>
-    </p>
-  </div>
-
-  <div class="card">
-    <p>
-      <strong>Professional Membership</strong><br />
-      IEEE Member — Princeton/Central Jersey Section<br />
-      Membership valid through December 2026
-    </p>
-  </div>
-
-</section>
+    <section class="section" id="service">
+      <h2>Professional Service, Reviewer Roles & Technical Program Committee</h2>
+      <div class="grid">
+        <div class="card"><span class="label role">Reviewer Role</span><h3>GAISS 2026</h3><p>Serving as subreviewer / external reviewer for GAISS 2026 while also maintaining author participation.</p></div>
+        <div class="card"><span class="label role">Technical Program Committee</span><h3>Generative AI & Secure Systems</h3><p>Technical community participation focused on secure AI systems, enterprise agentic architecture, observability, and production reliability.</p></div>
+        <div class="card"><span class="label role">IEEE Member</span><h3>Princeton / Central Jersey Section</h3><p>IEEE professional membership supporting continued engagement with research, conferences, reviews, and technical communities.</p></div>
+      </div>
+    </section>
 
     <section class="section" id="profiles">
       <h2>Publications & Profiles</h2>
       <ul>
         <li><a href="https://dzone.com/users/5503293/jayapragashd.html" target="_blank">DZone Technical Articles</a></li>
+        <li><a href="https://www.linkedin.com/in/jayapragashd/" target="_blank">LinkedIn Profile, Posts & Newsletter</a></li>
         <li><a href="https://substack.com/@jayapragashdakshnamurthy" target="_blank">Substack Engineering Blog</a></li>
         <li><a href="https://medium.com/@jayapragashdakshnamurthy" target="_blank">Medium Publications</a></li>
-        <li><a href="https://www.linkedin.com/in/jayapragashd/" target="_blank">LinkedIn Engineering Posts</a></li>
         <li><a href="https://github.com/jaya12pragash" target="_blank">GitHub Profile</a></li>
+        <li><a href="https://orcid.org/0009-0009-6907-5282" target="_blank">ORCID Research Profile</a></li>
       </ul>
     </section>
 
