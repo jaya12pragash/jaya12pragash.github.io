@@ -1,147 +1,752 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Jayapragash Dakshnamurthy | Cloud, Microservices, AI & Research</title>
-  <meta name="description" content="Jayapragash Dakshnamurthy is a Senior Software Engineer, independent researcher, technical author, reviewer, Technical Program Committee contributor, and book project contributor focused on cloud architecture, microservices, distributed systems, AI engineering, and production reliability." />
-  <meta name="keywords" content="Jayapragash Dakshnamurthy, Senior Software Engineer, Independent Researcher, DZone, LinkedIn Newsletter, IEEE Access, GAISS 2026, MIWAI 2026, Technical Program Committee, SmartCloud 2026, Cyber-AI 2026, microservices, AI reliability, Building Reliable AI Systems" />
+
+  <title>Jayapragash Dakshnamurthy | Distributed Systems, Reliable AI & Cloud Architecture</title>
+
+<meta
+ name="description"
+ content="Jayapragash Dakshnamurthy is a Senior Software Engineer, independent researcher, technical author, Program Committee member, and conference reviewer with 18+ years of experience in distributed systems, cloud architecture, microservices, reliable AI, cybersecurity, and production engineering."
+/>
+
+<meta
+ name="keywords"
+ content="Jayapragash Dakshnamurthy, Senior Software Engineer, Independent Researcher, Distributed Systems, Cloud Architecture, Microservices, Reliable AI, Agentic AI, DZone, LinkedIn Newsletter, Apress, IEEE SmartCloud 2026, Cyber-AI 2026, GAISS 2026, MIWAI 2026, IC-SQITS 2026, ICMACC 2026, ICAIC 2027"
+/>
+
   <meta name="author" content="Jayapragash Dakshnamurthy" />
+
+  <meta property="og:title" content="Jayapragash Dakshnamurthy | Engineering, Research & Technical Writing" />
+  <meta
+    property="og:description"
+    content="Senior Software Engineer, independent researcher, technical author, Program Committee member, and conference reviewer focused on distributed systems and reliable AI."
+  />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://jaya12pragash.github.io/" />
+
   <style>
-    * { box-sizing: border-box; }
-    body { margin: 0; font-family: Arial, Helvetica, sans-serif; background: #f4f6f8; color: #222; line-height: 1.6; }
-    .container { max-width: 1100px; margin: 0 auto; padding: 24px; }
-    nav, .hero, .section { background: #fff; border-radius: 14px; box-shadow: 0 2px 10px rgba(0,0,0,.06); }
-    nav { margin-top: 20px; padding: 16px 20px; }
-    nav a { color: #0b66c3; text-decoration: none; font-weight: bold; margin-right: 18px; }
-    nav a:hover { text-decoration: underline; }
-    .hero { margin-top: 22px; padding: 36px; background: linear-gradient(135deg, #fff 0%, #f5f9ff 100%); }
-    .section { margin-top: 22px; padding: 28px; }
-    h1 { margin-top: 0; font-size: 2.5rem; color: #1c1c1c; }
-    h2 { margin-top: 0; color: #1c1c1c; }
-    h3 { color: #1c1c1c; }
-    .subtitle { font-size: 1.12rem; color: #444; margin-bottom: 0; max-width: 930px; }
-    .tag-list { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 18px; }
-    .tag { background: #eaf3ff; color: #0b66c3; padding: 8px 12px; border-radius: 999px; font-size: .95rem; font-weight: bold; }
-    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 18px; margin-top: 16px; }
-    .card, .article-card { background: #f8fafc; border: 1px solid #e6ebf1; border-radius: 12px; padding: 18px; margin-top: 16px; }
-    .card h3, .article-card h3 { margin-top: 0; font-size: 1.08rem; }
-    .stat { font-size: 2rem; font-weight: bold; color: #0b66c3; margin-bottom: 6px; }
-    .label { display: inline-block; margin-bottom: 10px; padding: 6px 10px; border-radius: 999px; font-size: .85rem; font-weight: bold; background: #eaf3ff; color: #0b66c3; }
-    .label.accepted { background: #e8f7ea; color: #1d7a34; }
-    .label.review { background: #fff4e5; color: #a15c00; }
-    .label.role { background: #eef0ff; color: #3730a3; }
-    .label.book { background: #f0fdf4; color: #166534; }
-    .meta { color: #666; font-size: .95rem; margin-bottom: 10px; }
-    .button { display: inline-block; margin-top: 12px; padding: 10px 14px; border-radius: 10px; background: #0b66c3; color: #fff; text-decoration: none; font-weight: bold; }
-    .button:hover { background: #094f97; }
-    ul { padding-left: 20px; margin-bottom: 0; }
-    li { margin-bottom: 10px; }
-    a { color: #0b66c3; }
-    .footer { text-align: center; color: #666; font-size: .95rem; margin: 28px 0 8px; }
-    @media (max-width: 640px) { h1 { font-size: 2rem; } nav a { display: inline-block; margin-bottom: 8px; } }
-</style>
+    :root {
+      --primary: #0b66c3;
+      --primary-dark: #084d93;
+      --text: #1f2937;
+      --muted: #64748b;
+      --background: #f4f6f8;
+      --surface: #ffffff;
+      --surface-alt: #f8fafc;
+      --border: #e2e8f0;
+      --success-bg: #e8f7ea;
+      --success-text: #1d7a34;
+      --review-bg: #fff4e5;
+      --review-text: #a15c00;
+      --role-bg: #eef0ff;
+      --role-text: #3730a3;
+      --book-bg: #ecfdf5;
+      --book-text: #166534;
+      --shadow: 0 2px 12px rgba(15, 23, 42, 0.07);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: var(--background);
+      color: var(--text);
+      line-height: 1.65;
+    }
+
+    .container {
+      max-width: 1140px;
+      margin: 0 auto;
+      padding: 24px;
+    }
+
+    nav,
+    .hero,
+    .section {
+      background: var(--surface);
+      border-radius: 14px;
+      box-shadow: var(--shadow);
+    }
+
+    nav {
+      margin-top: 18px;
+      padding: 16px 20px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px 20px;
+      position: sticky;
+      top: 10px;
+      z-index: 20;
+    }
+
+    nav a {
+      color: var(--primary);
+      text-decoration: none;
+      font-weight: 700;
+    }
+
+    nav a:hover,
+    nav a:focus {
+      color: var(--primary-dark);
+      text-decoration: underline;
+    }
+
+    .hero {
+      margin-top: 22px;
+      padding: 44px 38px;
+      background: linear-gradient(135deg, #ffffff 0%, #f1f7ff 100%);
+    }
+
+    h1 {
+      margin: 0 0 14px;
+      font-size: clamp(2.1rem, 5vw, 3rem);
+      line-height: 1.2;
+      color: #111827;
+    }
+
+    h2 {
+      margin: 0 0 16px;
+      color: #111827;
+      font-size: 1.7rem;
+    }
+
+    h3 {
+      color: #1f2937;
+      line-height: 1.4;
+    }
+
+    p {
+      margin-top: 0;
+    }
+
+    .subtitle {
+      max-width: 940px;
+      margin-bottom: 0;
+      font-size: 1.14rem;
+      color: #3f4b5b;
+    }
+
+    .tag-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 22px;
+    }
+
+    .tag {
+      padding: 8px 12px;
+      border-radius: 999px;
+      background: #eaf3ff;
+      color: var(--primary);
+      font-size: 0.92rem;
+      font-weight: 700;
+    }
+
+    .section {
+      margin-top: 22px;
+      padding: 30px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(245px, 1fr));
+      gap: 18px;
+      margin-top: 18px;
+    }
+
+    .card {
+      height: 100%;
+      padding: 20px;
+      background: var(--surface-alt);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+    }
+
+    .card h3 {
+      margin: 0 0 10px;
+      font-size: 1.08rem;
+    }
+
+    .card p:last-child {
+      margin-bottom: 0;
+    }
+
+    .stat {
+      margin-bottom: 6px;
+      color: var(--primary);
+      font-size: 2rem;
+      font-weight: 800;
+      line-height: 1.1;
+    }
+
+    .label {
+      display: inline-block;
+      margin-bottom: 11px;
+      padding: 6px 10px;
+      border-radius: 999px;
+      background: #eaf3ff;
+      color: var(--primary);
+      font-size: 0.82rem;
+      font-weight: 800;
+    }
+
+    .label.accepted {
+      background: var(--success-bg);
+      color: var(--success-text);
+    }
+
+    .label.review {
+      background: var(--review-bg);
+      color: var(--review-text);
+    }
+
+    .label.role {
+      background: var(--role-bg);
+      color: var(--role-text);
+    }
+
+    .label.book {
+      background: var(--book-bg);
+      color: var(--book-text);
+    }
+
+    .meta {
+      color: var(--muted);
+      font-size: 0.94rem;
+    }
+
+    .button {
+      display: inline-block;
+      margin-top: 14px;
+      padding: 10px 15px;
+      border-radius: 10px;
+      background: var(--primary);
+      color: #ffffff;
+      text-decoration: none;
+      font-weight: 700;
+    }
+
+    .button:hover,
+    .button:focus {
+      background: var(--primary-dark);
+    }
+
+    .research-card {
+      margin-top: 16px;
+      padding: 20px;
+      background: var(--surface-alt);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+    }
+
+    .research-card strong {
+      color: #111827;
+    }
+
+    ul {
+      margin-bottom: 0;
+      padding-left: 22px;
+    }
+
+    li {
+      margin-bottom: 9px;
+    }
+
+    a {
+      color: var(--primary);
+    }
+
+    .footer {
+      margin: 30px 0 8px;
+      text-align: center;
+      color: var(--muted);
+      font-size: 0.94rem;
+    }
+
+    @media (max-width: 700px) {
+      .container {
+        padding: 14px;
+      }
+
+      nav {
+        position: static;
+        padding: 14px 16px;
+      }
+
+      .hero {
+        padding: 32px 24px;
+      }
+
+      .section {
+        padding: 24px 20px;
+      }
+
+      nav a {
+        display: inline-block;
+      }
+    }
+  </style>
+
 </head>
+
 <body>
   <div class="container">
-    <nav>
-      <a href="#home">Home</a>
-      <a href="#about">About</a>
-      <a href="articles.html">Articles</a>
-      <a href="#research">Research</a>
-      <a href="#book">Book</a>
-      <a href="#service">Reviewer / TPC</a>
-      <a href="#profiles">Profiles</a>
-      <a href="#contact">Contact</a>
-    </nav>
 
-    <section class="hero" id="home">
-      <h1>Jayapragash Dakshnamurthy</h1>
-      <p class="subtitle">Senior Software Engineer and Independent Researcher with 18+ years of experience in cloud-native architecture, distributed systems, microservices modernization, AI engineering, production reliability, and secure agentic systems across enterprise financial and healthcare platforms.</p>
-      <div class="tag-list">
-        <span class="tag">Senior Software Engineer</span>
-        <span class="tag">Independent Researcher</span>
-        <span class="tag">Technical Author</span>
-        <span class="tag">Book Project Contributor</span>
-        <span class="tag">IEEE Access Author</span>
-        <span class="tag">MIWAI 2026 PC Member</span>
-        <span class="tag">GAISS 2026 Reviewer</span>
+```
+<nav aria-label="Primary navigation">
+  <a href="#home">Home</a>
+  <a href="#about">About</a>
+  <a href="articles.html">Articles</a>
+  <a href="#research">Research</a>
+  <a href="#book">Book</a>
+  <a href="#service">Professional Service</a>
+  <a href="#profiles">Profiles</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<main>
+
+  <section class="hero" id="home">
+    <h1>Jayapragash Dakshnamurthy</h1>
+
+    <p class="subtitle">
+      Senior Software Engineer and Independent Researcher with 18+ years of
+      experience designing cloud-native platforms, distributed systems,
+      microservices, production AI systems, and resilient enterprise software
+      across healthcare and financial technology environments.
+    </p>
+
+    <div class="tag-list">
+      <span class="tag">Senior Software Engineer</span>
+      <span class="tag">Independent Researcher</span>
+      <span class="tag">Technical Author</span>
+      <span class="tag">Reliable AI Systems</span>
+      <span class="tag">Distributed Systems</span>
+      <span class="tag">Program Committee Member</span>
+      <span class="tag">Conference Reviewer</span>
+    </div>
+  </section>
+
+  <section class="section" id="about">
+    <h2>About</h2>
+
+    <p>
+      I specialize in cloud architecture, microservices modernization,
+      distributed systems, observability, cybersecurity, and AI-assisted
+      engineering. My work focuses on designing scalable and reliable
+      platforms, improving production performance, and modernizing complex
+      enterprise systems in regulated environments.
+    </p>
+
+    <p>
+      Alongside product engineering, I contribute through technical
+      publications, peer-reviewed research, conference Program Committee
+      service, and academic reviewing. My public writing spans DZone,
+      LinkedIn Newsletter, Medium, and Substack.
+    </p>
+
+    <p>
+      My research interests include AI systems reliability, secure agentic
+      execution, failure containment, latency amplification, graph-based
+      anomaly detection, root-cause localization, neural-network reliability,
+      and cyber-resilient edge-cloud architectures.
+    </p>
+  </section>
+
+  <section class="section" aria-labelledby="snapshot-heading">
+    <h2 id="snapshot-heading">Current Highlights</h2>
+
+    <div class="grid">
+      <div class="card">
+        <div class="stat">3</div>
+        <h3>Published DZone Articles</h3>
+        <p>
+          Published work on hybrid fan-out architecture, cache performance,
+          and monolith-to-microservices modernization.
+        </p>
       </div>
-    </section>
 
-    <section class="section" id="about">
-      <h2>About</h2>
-      <p>I specialize in cloud architecture, microservices modernization, distributed systems design, observability, and AI-assisted engineering practices. My work focuses on building scalable, reliable enterprise platforms and modernizing legacy systems in regulated environments.</p>
-      <p>Alongside product engineering, I publish technical articles and newsletter editions on modernization, reliability, AI infrastructure, security, and architecture patterns. My public work spans DZone, LinkedIn Newsletter, Substack, Medium, book projects, and peer-reviewed research submissions.</p>
-      <p>My current research focuses on dependency-aware anomaly detection, root cause localization, secure agentic execution, token vault architecture, latency amplification, and production reliability in distributed AI and microservice systems.</p>
-    </section>
-
-    <section class="section">
-      <h2>Current Snapshot</h2>
-      <div class="grid">
-        <div class="card"><div class="stat">3</div><h3>DZone published articles</h3><p>Published DZone articles now include push-based systems, cache performance, and monolith-to-microservices modernization.</p></div>
-        <div class="card"><div class="stat">4K+</div><h3>DZone article views</h3><p>Recent article-level DZone visibility includes more than 4,000 combined views across published articles.</p></div>
-        <div class="card"><div class="stat">1</div><h3>IEEE Access manuscript</h3><p>One IEEE Access regular manuscript is currently under review, focused on weight-only spectral detection of neural network overfitting.</p></div>
-        <div class="card"><div class="stat">MIWAI</div><h3>Program Committee role</h3><p>EasyChair role now includes MIWAI 2026 PC member participation, in addition to author roles and GAISS reviewer service.</p></div>
+      <div class="card">
+        <div class="stat">4K+</div>
+        <h3>DZone Article Views</h3>
+        <p>
+          More than 4,000 combined views across currently published DZone
+          articles.
+        </p>
       </div>
-    </section>
 
-    <section class="section">
-      <h2>Featured Writing</h2>
-      <div class="grid">
-        <div class="card"><span class="label accepted">Published on DZone</span><h3>Why Push-Based Systems Fail at Scale — and How Hybrid Fan-Out Fixes It</h3><p>Explains how celebrity-scale traffic creates fan-out pressure and how hybrid architectures reduce load in modern platforms.</p></div>
-        <div class="card"><span class="label accepted">Published on DZone</span><h3>Every Cache Miss Is a Tiny Tax on Your Performance</h3><p>Cache misses add latency, load, and cost. The article explains how improving cache hit ratio reduces unnecessary backend work and keeps systems fast at scale.</p></div>
-        <div class="card"><span class="label accepted">Published on DZone</span><h3>From Monolith to Microservices</h3><p>Practical lessons from real enterprise modernization efforts, migration trade-offs, observability, DevOps, and data management challenges.</p></div>
-        <div class="card"><span class="label">LinkedIn Newsletter</span><h3>Reliable AI Systems</h3><p>Newsletter writing on why AI systems fail in production, how observability must evolve, and how engineering teams can build safer AI platforms.</p></div>
+      <div class="card">
+        <div class="stat">2</div>
+        <h3>Program Committee Roles</h3>
+        <p>
+          Program Committee member for MIWAI 2026 and IC-SQITS 2026.
+        </p>
       </div>
-      <a class="button" href="articles.html">View Articles & Publications</a>
-    </section>
 
-    <section class="section" id="book">
-      <h2>Book Project</h2>
-      <div class="card"><span class="label book">Contract Offered</span><h3>Building Reliable AI Systems</h3><p>Book project focused on practical engineering patterns for reliable AI systems, including production failure modes, observability, latency, retries, governance, and resilient architecture.</p><p class="meta">Status: Contract/signature process initiated through DocuSign.</p></div>
-    </section>
-
-    <section class="section" id="research">
-      <h2>Selected Research & Publications</h2>
-      <div class="card"><span class="label review">IEEE Access — Under Review</span><p><strong>Weight-Only Spectral Detection of Neural Network Overfitting During Long-Horizon Grokking Using Random Matrix Theory</strong><br />Manuscript ID: Access-2026-23843 · Regular Manuscript</p></div>
-      <div class="card"><span class="label accepted">Accepted</span><p><strong>The Hidden Cost of AI Systems: Latency, Retries, and Cascading Failures in Production Environments</strong><br />IEEE SmartCloud 2026</p></div>
-      <div class="card"><span class="label accepted">Accepted</span><p><strong>Design and Implementation of Secure Agentic AI Systems Using Token Vault Architecture for Real-Time Enterprise Applications</strong><br />GAISS 2026 — IEEE Conference on Generative AI for Secure Systems</p></div>
-      <div class="card"><span class="label accepted">Accepted</span><p><strong>Toward Trustworthy Enterprise AI Agents: A Human-Governed Runtime Architecture for Secure Execution</strong><br />Cyber-AI 2026 — Oral Presentation</p></div>
-      <div class="card"><span class="label review">Under Review</span><p><strong>Observability-Driven Adaptive Failure Containment in Distributed AI Systems</strong><br />ICMACC 2026</p></div>
-    </section>
-
-    <section class="section" id="service">
-      <h2>Professional Service, Reviewer Roles & Technical Program Committee</h2>
-      <div class="grid">
-        <div class="card"><span class="label role">Program Committee</span><h3>MIWAI 2026</h3><p>Serving as PC member for MIWAI 2026 while also maintaining author participation.</p></div>
-        <div class="card"><span class="label role">Reviewer Role</span><h3>GAISS 2026</h3><p>Serving as subreviewer / external reviewer for GAISS 2026 while also maintaining author participation.</p></div>
-        <div class="card"><span class="label role">Author Roles</span><h3>Cyber-AI, IEEE CSCloud, IEEE SmartCloud</h3><p>Author participation across 2026 conferences focused on cybersecurity, cloud systems, AI reliability, and secure enterprise AI.</p></div>
-        <div class="card"><span class="label role">IEEE Member</span><h3>Princeton / Central Jersey Section</h3><p>IEEE professional membership supporting continued engagement with research, conferences, reviews, and technical communities.</p></div>
+      <div class="card">
+        <div class="stat">3</div>
+        <h3>Accepted Conference Papers</h3>
+        <p>
+          Accepted contributions at IEEE SmartCloud 2026, Cyber-AI 2026,
+          and GAISS 2026.
+        </p>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <section class="section" id="profiles">
-      <h2>Publications & Profiles</h2>
-      <ul>
-        <li><a href="https://dzone.com/users/5503293/jayapragashd.html" target="_blank">DZone Technical Articles</a></li>
-        <li><a href="https://www.linkedin.com/in/jayapragashd/" target="_blank">LinkedIn Profile, Posts & Newsletter</a></li>
-        <li><a href="https://substack.com/@jayapragashdakshnamurthy" target="_blank">Substack Engineering Blog</a></li>
-        <li><a href="https://medium.com/@jayapragashdakshnamurthy" target="_blank">Medium Publications</a></li>
-        <li><a href="https://github.com/jaya12pragash" target="_blank">GitHub Profile</a></li>
-        <li><a href="https://orcid.org/0009-0009-6907-5282" target="_blank">ORCID Research Profile</a></li>
-      </ul>
-    </section>
+  <section class="section">
+    <h2>Featured Technical Writing</h2>
 
-    <section class="section" id="contact">
-      <h2>Contact</h2>
-      <p>GitHub: <a href="https://github.com/jaya12pragash" target="_blank">github.com/jaya12pragash</a></p>
-      <p>LinkedIn: <a href="https://www.linkedin.com/in/jayapragashd/" target="_blank">linkedin.com/in/jayapragashd</a></p>
-      <p>Substack: <a href="https://substack.com/@jayapragashdakshnamurthy" target="_blank">substack.com/@jayapragashdakshnamurthy</a></p>
-      <p>Medium: <a href="https://medium.com/@jayapragashdakshnamurthy" target="_blank">medium.com/@jayapragashdakshnamurthy</a></p>
-    </section>
+    <div class="grid">
+      <div class="card">
+        <span class="label accepted">Published on DZone</span>
+        <h3>
+          Why Push-Based Systems Fail at Scale — and How Hybrid Fan-Out
+          Fixes It
+        </h3>
+        <p>
+          Explains why large fan-out workloads create operational pressure
+          and how hybrid delivery architectures improve scalability.
+        </p>
+      </div>
 
-    <div class="footer">© 2026 Jayapragash Dakshnamurthy</div>
+      <div class="card">
+        <span class="label accepted">Published on DZone</span>
+        <h3>Every Cache Miss Is a Tiny Tax on Your Performance</h3>
+        <p>
+          Examines how cache misses increase latency, backend load, and
+          infrastructure cost in high-scale systems.
+        </p>
+      </div>
+
+      <div class="card">
+        <span class="label accepted">Published on DZone</span>
+        <h3>
+          From Monolith to Microservices: Practical Lessons From Real
+          System Modernization
+        </h3>
+        <p>
+          Practical lessons involving architecture boundaries,
+          observability, DevOps, data management, and migration risk.
+        </p>
+      </div>
+
+      <div class="card">
+        <span class="label">LinkedIn Newsletter</span>
+        <h3>Reliable AI Systems</h3>
+        <p>
+          Engineering writing on production AI reliability, observability,
+          agentic architectures, failure modes, and enterprise adoption.
+        </p>
+      </div>
+    </div>
+
+    <a class="button" href="articles.html">View Articles & Publications</a>
+  </section>
+
+  <section class="section" id="book">
+    <h2>Book</h2>
+
+    <div class="research-card">
+      <span class="label book">Under Contract</span>
+
+      <h3>Building Reliable AI Systems</h3>
+
+      <p>
+        A practical engineering book focused on designing, deploying,
+        operating, and governing dependable AI systems in enterprise
+        environments.
+      </p>
+
+      <p class="meta">
+        Publisher: Apress
+      </p>
+
+      <p>
+        Topics include production reliability, evaluation, observability,
+        agentic AI, security, human oversight, distributed architecture,
+        operational governance, cost efficiency, and failure recovery.
+      </p>
+    </div>
+  </section>
+
+  <section class="section" id="research">
+    <h2>Research & Conference Publications</h2>
+
+    <h3>Accepted Papers</h3>
+
+    <div class="research-card">
+      <span class="label accepted">Accepted</span>
+
+      <p>
+        <strong>
+          The Hidden Cost of AI Systems: Latency, Retries, and Cascading
+          Failures in Production Environments
+        </strong>
+        <br />
+        IEEE SmartCloud 2026
+      </p>
+    </div>
+
+    <div class="research-card">
+      <span class="label accepted">Accepted</span>
+
+      <p>
+        <strong>
+          Design and Implementation of Secure Agentic AI Systems Using
+          Token Vault Architecture for Real-Time Enterprise Applications
+        </strong>
+        <br />
+        GAISS 2026
+      </p>
+    </div>
+
+    <div class="research-card">
+      <span class="label accepted">Accepted · Oral Presentation</span>
+
+      <p>
+        <strong>
+          Toward Trustworthy Enterprise AI Agents: A Human-Governed Runtime
+          Architecture for Secure Execution
+        </strong>
+        <br />
+        Cyber-AI 2026
+      </p>
+    </div>
+
+    <h3 style="margin-top: 30px;">Active Submissions</h3>
+
+    <div class="research-card">
+      <span class="label review">In Review</span>
+
+      <p>
+        <strong>
+          Weight-Only Spectral Detection of Neural Network Overfitting
+          Using Random Matrix Theory: An Empirical Evaluation on Deep
+          Convolutional and Fully Connected Architectures
+        </strong>
+        <br />
+        IC-SQITS 2026
+      </p>
+    </div>
+
+    <div class="research-card">
+      <span class="label review">Submitted</span>
+
+      <p>
+        <strong>
+          Observability-Driven Failure Containment in Distributed Systems:
+          An Experimental Study of Retry, Circuit Breakers, and Latency
+          Amplification
+        </strong>
+        <br />
+        IEEE ICMACC 2026
+      </p>
+
+      <p class="meta">
+        Track: Computational Intelligence and Computing
+      </p>
+    </div>
+
+    <div class="research-card">
+      <span class="label review">Submitted</span>
+
+      <p>
+        <strong>
+          Cyber-Resilient Edge-Cloud Microservices: AI-Driven
+          Decentralized Anomaly Detection and Root Cause Localization
+          Using Graph Neural Networks
+        </strong>
+        <br />
+        ICAIC 2027
+      </p>
+    </div>
+  </section>
+
+  <section class="section" id="service">
+    <h2>Professional Service</h2>
+
+    <div class="grid">
+      <div class="card">
+        <span class="label role">Program Committee Member</span>
+        <h3>MIWAI 2026</h3>
+        <p>
+          Supporting peer review and technical evaluation for research in
+          artificial intelligence and intelligent systems.
+        </p>
+      </div>
+
+      <div class="card">
+        <span class="label role">Program Committee Member</span>
+        <h3>IC-SQITS 2026</h3>
+        <p>
+          Program Committee member for the First International Conference
+          on Secure Quantum Intelligence and Trusted Systems.
+        </p>
+      </div>
+
+      <div class="card">
+        <span class="label role">Invited Reviewer</span>
+        <h3>IC-SQITS 2026</h3>
+        <p>
+          Invited to review research related to adversarial machine
+          learning, AI-generated malware, autonomous attack agents, and
+          cybersecurity threats.
+        </p>
+      </div>
+
+      <div class="card">
+        <span class="label role">External Reviewer</span>
+        <h3>GAISS 2026</h3>
+        <p>
+          Serving as a subreviewer / external reviewer for research on
+          generative AI, secure systems, and emerging AI architectures.
+        </p>
+      </div>
+
+      <div class="card">
+        <span class="label role">IEEE Member</span>
+        <h3>Princeton / Central Jersey Section</h3>
+        <p>
+          Professional membership supporting continued participation in
+          technical conferences, research, reviewing, and engineering
+          communities.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="profiles">
+    <h2>Publications & Professional Profiles</h2>
+
+    <ul>
+      <li>
+        <a
+          href="https://dzone.com/users/5503293/jayapragashd.html"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          DZone Technical Articles
+        </a>
+      </li>
+
+      <li>
+        <a
+          href="https://www.linkedin.com/in/jayapragashd/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          LinkedIn Profile, Posts & Newsletter
+        </a>
+      </li>
+
+      <li>
+        <a
+          href="https://jayapragashdakshnamurthy.substack.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Substack Engineering Blog
+        </a>
+      </li>
+
+      <li>
+        <a
+          href="https://medium.com/@jayapragashdakshnamurthy"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Medium Technical Publications
+        </a>
+      </li>
+
+      <li>
+        <a
+          href="https://github.com/jaya12pragash"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          GitHub Profile
+        </a>
+      </li>
+
+      <li>
+        <a
+          href="https://orcid.org/0009-0009-6907-5282"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          ORCID Research Profile
+        </a>
+      </li>
+    </ul>
+  </section>
+
+  <section class="section" id="contact">
+    <h2>Contact</h2>
+
+    <p>
+      LinkedIn:
+      <a
+        href="https://www.linkedin.com/in/jayapragashd/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        linkedin.com/in/jayapragashd
+      </a>
+    </p>
+
+    <p>
+      GitHub:
+      <a
+        href="https://github.com/jaya12pragash"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        github.com/jaya12pragash
+      </a>
+    </p>
+
+    <p>
+      Substack:
+      <a
+        href="https://jayapragashdakshnamurthy.substack.com"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        jayapragashdakshnamurthy.substack.com
+      </a>
+    </p>
+
+    <p>
+      Medium:
+      <a
+        href="https://medium.com/@jayapragashdakshnamurthy"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        medium.com/@jayapragashdakshnamurthy
+      </a>
+    </p>
+  </section>
+
+</main>
+
+<footer class="footer">
+  © 2026 Jayapragash Dakshnamurthy
+</footer>
+```
+
   </div>
 </body>
 </html>
