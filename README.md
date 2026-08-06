@@ -1,138 +1,168 @@
 # Jayapragash Dakshnamurthy
 
-**Senior Software Engineer | Independent Researcher | Technical Author | IEEE Reviewer | Program Committee Member | AI Systems Reliability**
+Senior Software Engineer | Independent Researcher | Technical Author | Program Committee Member | Conference Reviewer
+
+Building reliable, scalable, and secure enterprise systems through cloud-native architecture, distributed systems, and AI engineering.
 
 ---
 
-# 👋 About Me
+## 👋 About Me
 
-I am a Senior Software Engineer and Independent Researcher with 18+ years of experience designing and building enterprise-scale software systems across healthcare and financial technology.
+I am a Senior Software Engineer with **18+ years of experience** designing and building enterprise-scale software across healthcare and financial technology.
 
-My expertise includes:
+My primary areas of expertise include:
 
-- Cloud-native architecture
-- Microservices modernization
-- Distributed systems design
-- AI engineering & agentic AI systems
-- Production reliability & observability
-- Secure and scalable enterprise platforms
+- Cloud-Native Architecture
+- Distributed Systems
+- Microservices Modernization
+- AI Engineering & Agentic AI
+- Production Reliability
+- Observability Engineering
+- Cybersecurity
+- Enterprise Platform Architecture
 
-I focus on designing resilient systems, improving production reliability, modernizing legacy applications, and applying AI-driven engineering practices to real-world enterprise environments.
-
-Alongside engineering, I actively contribute through technical publications, peer-reviewed research, conference participation, and technical review activities.
-
----
-
-# 🚀 Current Activities
-
-- Authoring the book **Building Reliable AI Systems** (under publishing contract)
-- Publishing technical articles on DZone, LinkedIn Newsletter, Substack, and Medium
-- IEEE Access author with one journal manuscript currently under review
-- Accepted author at IEEE SmartCloud 2026 and GAISS 2026
-- Program Committee Member – MIWAI 2026
-- External Reviewer / Subreviewer – GAISS 2026
+In addition to enterprise software development, I actively contribute through technical writing, peer-reviewed research, conference program committees, and academic reviewing.
 
 ---
 
-# ✍️ Publications & Technical Writing
+# 📚 Technical Writing
 
-## 🔹 DZone Technical Author
+## DZone Technical Author
 
-Published engineering articles covering software architecture, distributed systems, scalability, reliability, and performance optimization.
+Published engineering articles covering distributed systems, scalability, cloud-native architecture, and software reliability.
 
 ### Published Articles
 
-- **From Monolith to Microservices: Practical Lessons From Real System Modernization**
-- **Every Cache Miss Is a Tiny Tax on Your Performance**
-- **Why Push-Based Systems Fail at Scale — and How Hybrid Fan-Out Fixes It**
+- Why Push-Based Systems Fail at Scale — and How Hybrid Fan-Out Fixes It
+- Every Cache Miss Is a Tiny Tax on Your Performance
+- From Monolith to Microservices: Practical Lessons From Real System Modernization
 
-### Editorial Pipeline
+Topics under development include:
 
-Additional articles under editorial review include:
+- Reliable AI Systems
+- AI Engineering
+- Distributed Systems
+- Performance Engineering
+- Observability
+- Cloud Architecture
 
-- API Gateway vs. Service Mesh
-- Intelligent Observability
-- API Gateway Pattern
-- Secure Agentic AI
-- AI Infrastructure
-- Caching Strategies
-- Distributed System Reliability
-- AI System Design Patterns
-
-**DZone Profile**
+**DZone**
 
 https://dzone.com/users/5503293/jayapragashd.html
 
 ---
 
-# 📰 LinkedIn Newsletter
+## LinkedIn Newsletter
 
-## Reliable AI Systems
+### Reliable AI Systems
 
-Engineering newsletter focused on building dependable AI systems for production environments.
+Engineering newsletter covering:
 
-Topics include:
-
-- Why AI Systems Fail in Production Even When Models Work
-- Production AI Reliability
-- Agentic AI Architecture
-- Distributed Systems Engineering
-- Observability Evolution
+- Production AI
+- Agentic AI
+- Distributed Systems
+- Software Architecture
+- Observability
+- Enterprise Reliability
 - Failure Analysis
-- Enterprise AI Adoption
-- Reliability Engineering Patterns
 
-LinkedIn Profile
+**LinkedIn**
 
 https://www.linkedin.com/in/jayapragashd/
 
 ---
 
-# 🔹 Substack Engineering Articles
+## Medium
 
-Long-form engineering articles covering distributed systems, AI infrastructure, cloud architecture, production reliability, software modernization, and enterprise engineering practices.
+Technical publications focused on:
 
-Substack
+- Distributed Systems
+- AI Engineering
+- Cloud Architecture
+- Failure Analysis
+- Software Reliability
 
-https://jayapragashdakshnamurthy.substack.com
+Recent articles include:
 
----
+- Why Million-RPS .NET APIs Fail Outside Benchmarks
+- Bad Retries Can Break Good Systems
+- API Gateway Pattern
+- Why Distributed Systems Can't Avoid Eventual Consistency
+- Latency Is the Real Bottleneck in AI Systems
+- Debugging AI Systems
+- Why AI Agents Shouldn't Hold Credentials
 
-# 🔹 Medium Publications
-
-Technical articles focused on AI systems, observability, failure analysis, software architecture, and distributed systems.
-
-Medium
+**Medium**
 
 https://medium.com/@jayapragashdakshnamurthy
 
 ---
 
-# 📚 Book Project
+## Substack
 
-## Building Reliable AI Systems
+Long-form engineering articles covering:
 
-Currently authoring a technical book focused on designing, deploying, operating, and governing reliable AI systems in enterprise environments.
+- Distributed Systems
+- Cloud Architecture
+- Enterprise AI
+- Production Reliability
+- Engineering Leadership
+- Software Design
 
-Major topics include AI architecture, production reliability, agentic AI, observability, security, human oversight, distributed systems, and operational excellence.
+**Substack**
+
+https://jayapragashdakshnamurthy.substack.com
 
 ---
 
-# 📊 Research & Conference Publications
+# 📖 Book
 
-## ✅ Accepted Papers
+## Building Reliable AI Systems
+
+Currently under contract with **Apress**.
+
+The book focuses on practical engineering approaches for designing, deploying, operating, and governing reliable enterprise AI systems.
+
+Major topics include:
+
+- Agentic AI
+- AI Governance
+- Production Reliability
+- AI Observability
+- Human-in-the-Loop Systems
+- Multi-Agent Architectures
+- AI FinOps
+- Secure Enterprise AI
+
+---
+
+# 📑 Conference Publications
+
+## Accepted Papers
 
 ### IEEE SmartCloud 2026
 
 **The Hidden Cost of AI Systems: Latency, Retries, and Cascading Failures in Production Environments**
 
-Research Focus
+Research areas:
 
-- AI System Reliability
-- Latency Amplification
+- AI Reliability
 - Retry Storms
 - Cascading Failures
-- Resilience Engineering
+- Distributed Systems
+
+---
+
+### Cyber-AI 2026
+
+**Toward Trustworthy Enterprise AI Agents: A Human-Governed Runtime Architecture for Secure Execution**
+
+Research areas:
+
+- Trustworthy AI
+- Runtime Governance
+- Secure Agentic AI
+- Enterprise AI
 
 ---
 
@@ -140,32 +170,32 @@ Research Focus
 
 **Design and Implementation of Secure Agentic AI Systems Using Token Vault Architecture for Real-Time Enterprise Applications**
 
-Research Focus
+Research areas:
 
 - Secure Agentic AI
-- Token Vault Architecture
-- Controlled Execution
+- Token Vault
 - Credential Isolation
-- Auditability
+- Enterprise Security
 
 ---
 
-# 🔬 IEEE Access Journal (Under Review)
+# 📝 Current Research Submissions
 
-### Weight-Only Spectral Detection of Neural Network Overfitting During Long-Horizon Grokking Using Random Matrix Theory
+### IC-SQITS 2026
 
-**Journal:** IEEE Access
+**Weight-Only Spectral Detection of Neural Network Overfitting Using Random Matrix Theory: An Empirical Evaluation on Deep Convolutional and Fully Connected Architectures**
 
-**Manuscript ID:** Access-2026-23843
+---
 
-Status: Under Review
+### IEEE ICMACC 2026
 
-Research Areas
+**Observability-Driven Failure Containment in Distributed Systems: An Experimental Study of Retry, Circuit Breakers, and Latency Amplification**
 
-- Neural Network Analysis
-- Overfitting Detection
-- Random Matrix Theory
-- AI Model Reliability
+---
+
+### ICAIC 2027
+
+**Cyber-Resilient Edge-Cloud Microservices: AI-Driven Decentralized Anomaly Detection and Root Cause Localization Using Graph Neural Networks**
 
 ---
 
@@ -173,51 +203,44 @@ Research Areas
 
 ## Program Committee Member
 
-### MIWAI 2026
-
-Program Committee Member supporting the review and evaluation of research submissions in Artificial Intelligence and Intelligent Systems.
-
----
-
-## External Reviewer
-
-### GAISS 2026
-
-External Reviewer / Subreviewer
-
-Responsibilities include:
-
-- Peer review of submitted research papers
-- Technical evaluation of AI security research
-- Assessment of research quality and originality
-- Support for the academic peer-review process
+- MIWAI 2026
+- IC-SQITS 2026
 
 ---
 
-# 🧠 Research Interests
+## Conference Reviewer
 
-- AI Systems Reliability
+- GAISS 2026
+- IC-SQITS 2026
+
+Research reviewing areas include:
+
+- Artificial Intelligence
+- Cybersecurity
 - Distributed Systems
-- Agentic AI Security
-- Cloud-Native Architecture
-- Microservices Modernization
-- Production Observability
+- Cloud Computing
+- Software Engineering
+- Machine Learning
+
+---
+
+# 🔬 Research Interests
+
+My current research focuses on:
+
+- Reliable AI Systems
+- Agentic AI
+- AI Governance
+- Distributed Systems
+- Microservices
+- Cloud-Native Computing
+- Observability
 - Root Cause Analysis
 - Failure Containment
-- Enterprise AI Governance
-- Token-Based Security Models
-
----
-
-# 🏗️ Featured Work
-
-- From Monolith to Microservices
-- Every Cache Miss Is a Tiny Tax on Your Performance
-- Why Push-Based Systems Fail at Scale
-- Debugging AI Systems: Why Observability Must Evolve
-- Why AI Agents Shouldn't Hold Credentials
-- Intelligent Observability for Distributed Systems
-- The Hidden Cost of AI Systems
+- AI Security
+- Graph Neural Networks
+- Random Matrix Theory
+- Production Engineering
 
 ---
 
@@ -227,7 +250,7 @@ https://jaya12pragash.github.io
 
 ---
 
-# 🔗 Profiles
+# 🔗 Professional Profiles
 
 **LinkedIn**
 
@@ -241,22 +264,27 @@ https://github.com/jaya12pragash
 
 https://dzone.com/users/5503293/jayapragashd.html
 
-**Substack**
-
-https://jayapragashdakshnamurthy.substack.com
-
 **Medium**
 
 https://medium.com/@jayapragashdakshnamurthy
 
-**ORCID**
+**Substack**
 
-https://orcid.org/0009-0009-6907-5282
+https://jayapragashdakshnamurthy.substack.com
 
 ---
 
 # 📌 Summary
 
-My work combines 18+ years of enterprise software engineering experience, public technical authorship, peer-reviewed research contributions, professional conference service, and practical experience building production-scale distributed and AI-powered systems.
+My work combines:
 
-My research and engineering activities focus on improving the reliability, scalability, security, and governance of modern cloud-native and AI-driven software systems.
+- 18+ years of enterprise software engineering
+- Cloud-native architecture
+- Distributed systems expertise
+- AI engineering
+- Technical writing
+- Peer-reviewed research
+- Conference program committee service
+- Academic peer review
+
+with a focus on building reliable, scalable, secure, and production-ready software systems.
