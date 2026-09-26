@@ -369,7 +369,7 @@ Technical publications covering:
 - Failure Analysis
 - Performance Engineering
 
-https://medium.com/@jayapragashdakshnamurthy
+https://medium.com/@jaya12pragash
 
 ---
 
@@ -442,7 +442,7 @@ https://dzone.com/users/5503293/jayapragashd.html
 
 **Medium**
 
-https://medium.com/@jayapragashdakshnamurthy
+https://medium.com/@jaya12pragash
 
 **Substack**
 
