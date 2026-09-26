@@ -35,7 +35,7 @@ Alongside engineering, I contribute through technical publications, peer-reviewe
 - **AISRI 2026 Reviewer Service** — Completed
 - **IEEE Xplore Published Author** — IEEE SmartCloud 2026
 - **Accepted Paper** — IC-SQITS 2026
-- **Conditional Acceptance** — AISRI 2026
+- **Accepted Paper** — AISRI 2026 (Awaiting Indexing)
 - **Accepted Oral Paper** — Cyber-AI 2026
 - **Accepted Paper** — GAISS 2026
 - **Program Committee Member** — IEEE BigData 2026
@@ -125,7 +125,7 @@ Research areas:
 
 **Toward Trustworthy Enterprise AI Agents: A Human-Governed Runtime Architecture for Secure Execution**
 
-**Status:** Accepted — Oral Presentation
+**Status:** Accepted — Oral Presentation · Awaiting Proceedings Indexing
 
 Research areas:
 
@@ -153,15 +153,15 @@ Research areas:
 
 ---
 
-# 🟡 Conditionally Accepted Research
+# 🟡 Accepted Research
 
 ### AISRI 2026
 
 **Policy-Driven Runtime Governance for Secure and Trustworthy Enterprise Agentic AI**
 
-**Status:** Conditional Acceptance
+**Status:** Accepted — Awaiting Proceedings Indexing
 
-Conditionally accepted for presentation and publication, subject to successful evaluation of the revised manuscript.
+Accepted for presentation and publication. Proceedings indexing is pending.
 
 Research areas:
 
