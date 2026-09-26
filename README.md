@@ -1,6 +1,6 @@
 # Jayapragash Dakshnamurthy
 
-**Senior Software Engineer | Independent Researcher | Technical Author | Program Committee Member | Conference Reviewer**
+**IEEE Senior Member | Senior Software Engineer | Independent Researcher | Technical Author | Program Committee Member | Conference Reviewer**
 
 Building reliable, scalable, secure, and production-ready systems through cloud-native architecture, distributed systems, and AI engineering.
 
@@ -28,6 +28,11 @@ Alongside engineering, I contribute through technical publications, peer-reviewe
 
 # 🚀 Current Highlights
 
+- **IEEE Senior Member**
+- **Session Co-Chair** — Cyber-AI 2026
+- **IEEE Access Reviewer** — 4 manuscripts reviewed
+- **ICAIC 2027 Reviewer**
+- **AISRI 2026 Reviewer Service** — Completed
 - **IEEE Xplore Published Author** — IEEE SmartCloud 2026
 - **Accepted Paper** — IC-SQITS 2026
 - **Conditional Acceptance** — AISRI 2026
@@ -248,6 +253,32 @@ December 10–11, 2026
 ---
 
 # 🔍 Conference Reviewer Service
+
+### IEEE Access
+
+Reviewer service covering **4 manuscripts** across AI, software systems, cybersecurity, and related technical areas.
+
+---
+
+### ICAIC 2027
+
+Reviewer supporting technical evaluation of AI and cybersecurity research submissions.
+
+---
+
+### AISRI 2026
+
+Completed assigned peer-review service for AISRI 2026.
+
+---
+
+### Cyber-AI 2026
+
+**Session Co-Chair**
+
+Supported session coordination and technical program delivery for Cyber-AI 2026.
+
+---
 
 ### IC-SQITS 2026
 
