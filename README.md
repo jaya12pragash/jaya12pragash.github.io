@@ -48,6 +48,14 @@ Alongside engineering, I contribute through technical publications, peer-reviewe
 
 ---
 
+# 🏅 IEEE Senior Member
+
+Elevated to the grade of **IEEE Senior Member** in **September 2026**.
+
+This senior-grade recognition reflects significant professional experience, technical achievement, and contributions to the engineering profession.
+
+---
+
 # 📖 Book
 
 ## Building Reliable AI Systems
