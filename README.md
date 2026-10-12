@@ -60,6 +60,8 @@ This senior-grade recognition reflects significant professional experience, tech
 
 ## Building Reliable AI Systems
 
+**ISBN:** 979-8-8688-3409-7
+
 Currently under contract with **Apress**.
 
 The book focuses on practical engineering approaches for designing, deploying, operating, securing, and governing reliable enterprise AI systems.
@@ -219,6 +221,20 @@ Research areas:
 - Graph Neural Networks
 - Anomaly Detection
 - Root Cause Localization
+
+---
+
+## IEEE Reliability Society Activities
+
+### AI Trusted Data Workshop — August 15–16, 2026
+Participated in the IEEE Reliability Society workshop at Virginia Tech, Alexandria, Virginia, and contributed to the collaborative white paper **Engineering Trustworthy Data Infrastructure for Reliable AI Systems**.
+
+### Proposed Webinar — When AI Writes Code: Who Owns Reliability?
+**Subtitle:** Building Trustworthy Software Systems in the AI Engineering Era.  
+**Status:** Technical webinar proposal revised September 22, 2026; date and final scheduling not yet confirmed.
+
+### IEEE Reliability Magazine / Technical Writing
+Contributed to workshop-related white paper and technical article development. No magazine publication or acceptance is claimed.
 
 ---
 
