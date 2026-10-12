@@ -186,27 +186,6 @@ Research areas:
 
 # 📝 Active Research Submissions
 
-### IEEE ICMACC 2026
-
-**Observability-Driven Failure Containment in Distributed Systems: An Experimental Study of Retry, Circuit Breakers, and Latency Amplification**
-
-**Status:** Submitted
-
-Track:
-
-Computational Intelligence and Computing
-
-Research areas:
-
-- Failure Containment
-- Retry Amplification
-- Circuit Breakers
-- Distributed Systems
-- Observability
-- Latency Propagation
-
----
-
 ### ICAIC 2027
 
 **Cyber-Resilient Edge-Cloud Microservices: AI-Driven Decentralized Anomaly Detection and Root Cause Localization Using Graph Neural Networks**
@@ -341,6 +320,18 @@ External Reviewer / Subreviewer for research involving:
 - AI Security
 - Trustworthy AI
 - Emerging AI Architectures
+
+---
+
+## Enterprise AI Video Series
+
+**YouTube channel:** [Reliable AI Systems | Upcoming Book, Videos & Research](https://www.youtube.com/@JayapragashDakshnamurthy)
+
+- EP02 — From AI Prototype to Enterprise Production
+- EP03 — Enterprise AI Architecture
+- EP04 — Integrating AI with Enterprise Systems and Data
+- EP05 — Governing Enterprise AI at Scale
+- EP06 — Building an Enterprise AI Operating Model
 
 ---
 
@@ -490,3 +481,16 @@ My work combines:
 - Academic peer review
 
 with a focus on building reliable, scalable, secure, and production-ready software and AI systems.
+
+
+## Contact & Collaboration
+
+For technical speaking, research collaboration, IEEE activities, and professional opportunities:
+
+- [LinkedIn](https://www.linkedin.com/in/jayapragashd/)
+- [YouTube](https://www.youtube.com/@JayapragashDakshnamurthy)
+- [GitHub](https://github.com/jaya12pragash)
+- [Google Scholar](https://scholar.google.com/citations?user=F3kUJOwAAAAJ&hl=en)
+- [ORCID](https://orcid.org/0009-0009-6907-5282)
+- [Medium](https://medium.com/@jaya12pragash)
+- [Substack](https://jayapragashdakshnamurthy.substack.com)
