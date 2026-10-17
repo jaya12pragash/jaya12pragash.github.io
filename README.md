@@ -340,6 +340,24 @@ External Reviewer / Subreviewer for research involving:
 
 ---
 
+## Technical Talks & Workshops
+
+### IEEE Workshop on AI-Native Networking, Resilience and Forensics — October 24, 2026
+
+**Talk:** Keeping Distributed AI Inference Reliable Under Overload: Deadline-Aware Backpressure and Adaptive Load Shedding
+
+**Presenter:** Jayapragash Dakshnamurthy · HealthEquity  
+**Location:** Rochester Institute of Technology, Rochester, New York  
+**Scheduled time:** 11:00–11:20 a.m. (local time)
+
+DA-BALS applies deadline and congestion signals to admission control and adaptive load shedding in distributed cloud–edge AI inference.
+
+**Status:** Scheduled technical talk; not yet delivered.
+
+[Technical Talks & Workshops](https://jaya12pragash.github.io/talks.html)
+
+---
+
 ## Enterprise AI Video Series
 
 **YouTube channel:** [Reliable AI Systems | Upcoming Book, Videos & Research](https://www.youtube.com/@JayapragashDakshnamurthy)
