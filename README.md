@@ -212,8 +212,13 @@ Participated in the IEEE Reliability Society workshop at Virginia Tech, Alexandr
 **Subtitle:** Building Trustworthy Software Systems in the AI Engineering Era.  
 **Status:** Technical webinar proposal revised September 22, 2026; date and final scheduling not yet confirmed.
 
-### IEEE Reliability Magazine / Technical Writing
-Contributed to workshop-related white paper and technical article development. No magazine publication or acceptance is claimed.
+### IEEE Reliability Magazine — Accepted Article
+
+**Engineering Trustworthy Data for Reliable AI Systems**
+
+**Status:** Accepted; DOI assigned by IEEE Publishing Operations. Publication and indexing are not yet claimed.
+
+**DOI:** [10.1109/MRL.2026.3745337](https://doi.org/10.1109/MRL.2026.3745337)
 
 ---
 
@@ -256,6 +261,18 @@ December 10–11, 2026
 ---
 
 # 🔍 Conference Reviewer Service
+
+### TAIIS 2026
+
+**Reviewer** — Technical research evaluation.
+
+---
+
+### IEEE ICASSP 2027
+
+**Reviewer** — 2027 IEEE International Conference on Acoustics, Speech and Signal Processing.
+
+---
 
 ### IEEE Access
 
