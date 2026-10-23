@@ -28,6 +28,7 @@ Alongside engineering, I contribute through technical publications, peer-reviewe
 
 # 🚀 Current Highlights
 
+- **Technical Program Committee Member** — IEEE HOST 2027 (Winter Cycle)
 - **IEEE Senior Member**
 - **Session Co-Chair** — Cyber-AI 2026
 - **IEEE Access Reviewer** — 4 manuscripts reviewed
@@ -225,6 +226,12 @@ Participated in the IEEE Reliability Society workshop at Virginia Tech, Alexandr
 # 👥 Professional Service
 
 ## Program Committee Member
+
+### IEEE HOST 2027 — Winter Cycle
+
+**Technical Program Committee Member**, IEEE Symposium on Hardware Oriented Security and Trust (HOST 2027), Winter Cycle.
+
+---
 
 ### IEEE BigData 2026
 
