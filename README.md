@@ -209,9 +209,13 @@ Research areas:
 ### AI Trusted Data Workshop — August 15–16, 2026
 Participated in the IEEE Reliability Society workshop at Virginia Tech, Alexandria, Virginia, and contributed to the collaborative white paper **Engineering Trustworthy Data Infrastructure for Reliable AI Systems**.
 
-### Confirmed Webinar — When AI Writes Code: Who Owns Reliability?
+### IEEE Reliability Society Webinar Proposal — When AI Writes Code: Who Owns Reliability?
 **Subtitle:** Building Trustworthy Software Systems in the AI Engineering Era.  
-**Status:** Confirmed for December 3, 2026.
+**Status:** Proposed; date not confirmed.
+
+### IEEE New Hampshire AI Webinar — December 3, 2026
+**Status:** Confirmed.  
+**Official IEEE event:** https://events.vtools.ieee.org/m/588940
 
 ### IEEE Reliability Magazine — Accepted Article
 
