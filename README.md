@@ -209,9 +209,9 @@ Research areas:
 ### AI Trusted Data Workshop — August 15–16, 2026
 Participated in the IEEE Reliability Society workshop at Virginia Tech, Alexandria, Virginia, and contributed to the collaborative white paper **Engineering Trustworthy Data Infrastructure for Reliable AI Systems**.
 
-### Proposed Webinar — When AI Writes Code: Who Owns Reliability?
+### Confirmed Webinar — When AI Writes Code: Who Owns Reliability?
 **Subtitle:** Building Trustworthy Software Systems in the AI Engineering Era.  
-**Status:** Technical webinar proposal revised September 22, 2026; date and final scheduling not yet confirmed.
+**Status:** Confirmed for December 3, 2026.
 
 ### IEEE Reliability Magazine — Accepted Article
 
@@ -359,7 +359,7 @@ External Reviewer / Subreviewer for research involving:
 
 DA-BALS applies deadline and congestion signals to admission control and adaptive load shedding in distributed cloud–edge AI inference.
 
-**Status:** Scheduled technical talk; not yet delivered.
+**Status:** Presented October 24, 2026.
 
 [Technical Talks & Workshops](https://jaya12pragash.github.io/talks.html)
 
