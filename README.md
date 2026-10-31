@@ -38,7 +38,7 @@ Alongside engineering, I contribute through technical publications, peer-reviewe
 - **Accepted Paper** — IC-SQITS 2026
 - **Accepted Paper** — AISRI 2026 (Awaiting Indexing)
 - **Accepted Oral Paper** — Cyber-AI 2026
-- **Accepted Paper** — GAISS 2026
+- **Accepted Paper** — GAISS 2026 (Awaiting Indexing)
 - **Program Committee Member** — IEEE BigData 2026
 - **Program Committee Member** — MIWAI 2026
 - **Program Committee Member** — IC-SQITS 2026
@@ -152,7 +152,7 @@ Research areas:
 
 **Design and Implementation of Secure Agentic AI Systems Using Token Vault Architecture for Real-Time Enterprise Applications**
 
-**Status:** Accepted
+**Status:** Accepted — Awaiting Proceedings Indexing
 
 Research areas:
 
