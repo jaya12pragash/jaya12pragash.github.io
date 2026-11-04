@@ -199,6 +199,15 @@ Research areas:
 
 ---
 
+## Transferred Research Submission — IEEE BigData PSBD 2026
+
+**Runtime Governance, Security, and Reliability for Multi-Agent AI in Distributed Virtual Environments**
+
+**Paper ID:** BigD236  
+**Status:** Not accepted by IEEE BigData 2026 main conference; transferred to the 13th IEEE Special Session on Privacy and Security of Big Data (PSBD 2026), decision pending. Permission requested to replace the transferred PDF with the revised manuscript; upload not confirmed.
+
+---
+
 # 📝 Active Research Submissions
 
 ### ICAIC 2027
@@ -317,9 +326,15 @@ December 10–11, 2026
 
 ---
 
+### SysCom 2026
+
+**Invited Reviewer** — 3rd International Conference on Smart Systems and Advanced Computing. Invitation received; acceptance/completed review not independently confirmed.
+
+---
+
 ### IEEE ICASSP 2027
 
-**Reviewer** — 2027 IEEE International Conference on Acoustics, Speech and Signal Processing.
+**Reviewer invitation** — 2027 IEEE International Conference on Acoustics, Speech and Signal Processing, Machine Learning for Signal Processing (ML) technical committee.
 
 ---
 
