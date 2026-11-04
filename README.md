@@ -241,6 +241,18 @@ Participated in the IEEE Reliability Society workshop at Virginia Tech, Alexandr
 
 ---
 
+## Conference Organizing Leadership
+
+### Trenton Computer Festival (TCF) — 2027 Revival
+
+**Role:** Co-Chair, alongside Roger Ding and Manuel Blanco.
+
+Supporting the revival of the Trenton Computer Festival, including volunteer outreach and conference organization. **Proposed venue:** Princeton University Friend Center. **Tentative dates:** late March / early April 2027, with October 2027 also under consideration. No date or venue is confirmed.
+
+[Leadership & Professional Service](https://jaya12pragash.github.io/service.html)
+
+---
+
 ## IEEE Standards Leadership
 
 ### IEEE C/S2ESC Research, Experimentation & Adoption Subgroup — P730 Software Quality Assurance Support Team
