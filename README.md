@@ -28,6 +28,10 @@ Alongside engineering, I contribute through technical publications, peer-reviewe
 
 # 🚀 Current Highlights
 
+- **IEEE C/S2ESC P730 Support Team Lead / Subgroup ExCom Member** — Research, Experimentation & Adoption Subgroup
+- **TAIIS 2026 Workshop** — Paper 18 accepted for presentation; planned CEUR-WS proceedings, indexing not guaranteed
+- **ICAIC 2027** — Acceptance email received; specific paper title/ID confirmation pending
+
 - **Technical Program Committee Member** — IEEE HOST 2027 (Winter Cycle)
 - **IEEE Senior Member**
 - **Session Co-Chair** — Cyber-AI 2026
@@ -185,13 +189,23 @@ Research areas:
 
 ---
 
+## Accepted Workshop Research
+
+### TAIIS 2026 Workshop — Paper 18
+
+**Residual-Based Diagnostic Triage for Industrial IoT Network-Flow Anomaly Detection: A Chronological WUSTL-IIoT-2021 Evaluation**
+
+**Status:** Accepted for workshop presentation, December 3–5, 2026, Taichung, Taiwan. Proposed CEUR Workshop Proceedings publication subject to final requirements; Scopus indexing of the individual paper is not guaranteed.
+
+---
+
 # 📝 Active Research Submissions
 
 ### ICAIC 2027
 
 **Cyber-Resilient Edge-Cloud Microservices: AI-Driven Decentralized Anomaly Detection and Root Cause Localization Using Graph Neural Networks**
 
-**Status:** Submitted
+**Status:** ICAIC 2027 acceptance notification received, but the email contained generic title/ID placeholders; confirmation of this specific paper is pending.
 
 Research areas:
 
@@ -224,6 +238,18 @@ Participated in the IEEE Reliability Society workshop at Virginia Tech, Alexandr
 **Status:** Accepted; DOI assigned by IEEE Publishing Operations. Publication and indexing are not yet claimed.
 
 **DOI:** [10.1109/MRL.2026.3745337](https://doi.org/10.1109/MRL.2026.3745337)
+
+---
+
+## IEEE Standards Leadership
+
+### IEEE C/S2ESC Research, Experimentation & Adoption Subgroup — P730 Software Quality Assurance Support Team
+
+**Appointment:** Support Team Lead and subgroup Executive Committee (ExCom) member.
+
+Responsibilities: lead the support team and shape research priorities; work with sponsor Dr. Lynn Robert Carter; conduct biweekly standups; remove blockers; translate reviewed findings into practical PAR recommendations; report at monthly ExCom meetings; mentor contributors.
+
+[Leadership & Professional Service](https://jaya12pragash.github.io/service.html)
 
 ---
 
