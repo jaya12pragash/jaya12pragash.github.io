@@ -404,6 +404,24 @@ External Reviewer / Subreviewer for research involving:
 
 ---
 
+## Confirmed Upcoming Technical Talks
+
+### ACM Tampa Bay Professional Chapter — November 18, 2026
+
+**Lightning Series with Industry Professionals** · Virtual · **8:00 p.m. ET**  
+**Talk:** Beyond AI-Generated Code: Engineering Reliable AI Systems for Production
+
+### Western New England University — November 19, 2026
+
+**Guest lecture** for Professor Steven Li's graduate class · Virtual  
+**Talk:** Beyond Uptime: Engineering Software Reliability
+
+Both engagements are confirmed and scheduled; they have not yet been delivered.
+
+[Technical Talks & Workshops](https://jaya12pragash.github.io/talks.html)
+
+---
+
 ## Technical Talks & Workshops
 
 ### IEEE Workshop on AI-Native Networking, Resilience and Forensics — October 24, 2026
