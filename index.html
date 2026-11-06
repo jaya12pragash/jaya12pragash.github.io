@@ -113,6 +113,24 @@
       background: linear-gradient(135deg, #ffffff 0%, #f1f7ff 100%);
     }
 
+    .hero-layout {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) 230px;
+      align-items: center;
+      gap: 28px;
+    }
+
+    .hero-photo {
+      width: 230px;
+      height: 230px;
+      border-radius: 50%;
+      object-fit: cover;
+      object-position: center 25%;
+      border: 5px solid #ffffff;
+      box-shadow: 0 8px 28px rgba(15, 23, 42, 0.15);
+      display: block;
+    }
+
     .section {
       margin-top: 22px;
       padding: 30px;
@@ -293,6 +311,17 @@
         padding: 32px 24px;
       }
 
+      .hero-layout {
+        grid-template-columns: 1fr;
+      }
+
+      .hero-photo {
+        width: 170px;
+        height: 170px;
+        margin: 0 auto 16px;
+        grid-row: 1;
+      }
+
       .section {
         padding: 24px 20px;
       }
@@ -319,6 +348,8 @@
   <main>
 
     <section class="hero" id="home">
+      <div class="hero-layout">
+        <div class="hero-copy">
 
       <h1>Jayapragash Dakshnamurthy</h1>
 
@@ -341,6 +372,17 @@
         <span class="tag">Conference Reviewer</span>
       </div>
 
+
+        </div>
+        <img
+          class="hero-photo"
+          src="Personal%20Photo_Professional.png"
+          alt="Professional portrait of Jayapragash Dakshnamurthy"
+          width="230"
+          height="230"
+          fetchpriority="high"
+        />
+      </div>
     </section>
 
 
