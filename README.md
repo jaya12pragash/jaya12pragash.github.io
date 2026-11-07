@@ -611,3 +611,5 @@ For technical speaking, research collaboration, IEEE activities, and professiona
 - [ORCID](https://orcid.org/0009-0009-6907-5282)
 - [Medium](https://medium.com/@jaya12pragash)
 - [Substack](https://jayapragashdakshnamurthy.substack.com)
+
+<!-- GitHub Pages deployment refresh: 2026-11-06 -->
