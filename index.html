@@ -120,6 +120,31 @@
       gap: 28px;
     }
 
+    .hero-actions {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 12px;
+      margin-top: 22px;
+    }
+
+    .hero-actions .button {
+      margin-top: 0;
+      padding: 12px 18px;
+    }
+
+    .hero-actions .button-secondary {
+      background: #ffffff;
+      color: var(--primary);
+      border: 2px solid var(--primary);
+    }
+
+    .hero-actions .button-secondary:hover,
+    .hero-actions .button-secondary:focus {
+      background: #eaf3ff;
+      color: var(--primary-dark);
+    }
+
     .hero-photo {
       width: 230px;
       height: 230px;
@@ -372,6 +397,10 @@
         <span class="tag">Conference Reviewer</span>
       </div>
 
+      <div class="hero-actions" aria-label="Explore professional work">
+        <a class="button" href="articles.html">View Publications</a>
+        <a class="button button-secondary" href="talks.html">Speaking Engagements</a>
+      </div>
 
         </div>
         <img
