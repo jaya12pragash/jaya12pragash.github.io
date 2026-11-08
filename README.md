@@ -41,7 +41,7 @@ Alongside engineering, I contribute through technical publications, peer-reviewe
 - **IEEE Xplore Published Author** — IEEE SmartCloud 2026
 - **Accepted Paper** — IC-SQITS 2026
 - **Accepted Paper** — AISRI 2026 (Awaiting Indexing)
-- **Accepted Oral Paper** — Cyber-AI 2026
+- **IEEE Xplore Published Paper** — Cyber-AI 2026 (Document 11755196)
 - **Accepted Paper** — GAISS 2026 (Awaiting Indexing)
 - **Program Committee Member** — IEEE BigData 2026
 - **Program Committee Member** — MIWAI 2026
@@ -140,7 +140,9 @@ Research areas:
 
 **Toward Trustworthy Enterprise AI Agents: A Human-Governed Runtime Architecture for Secure Execution**
 
-**Status:** Accepted — Oral Presentation · Awaiting Proceedings Indexing
+**Status:** Published in IEEE Xplore — Oral Presentation
+
+**IEEE Xplore:** [Document 11755196](https://ieeexplore.ieee.org/document/11755196)
 
 Research areas:
 
