@@ -236,7 +236,7 @@ Participated in the IEEE Reliability Society workshop at Virginia Tech, Alexandr
 
 ### IEEE Reliability Society Webinar — When AI Writes Code: Who Owns Reliability?
 **Subtitle:** Building Trustworthy Software Systems in the AI Engineering Era.  
-**Status:** WebEx calendar invitation received from organizer Loretta Arellano for Friday, December 18, 2026, 10:00–11:00 a.m. (time zone not specified in the screenshot). The invitation is labeled “placeholder”; public event listing and registration remain pending.
+**Status:** Confirmed IEEE Reliability Society webinar for December 18, 2026, 10:00–11:00 a.m. (time zone not verified). December 14 dry run confirmed. Coordinated by Matthew Hu and Loretta Arellano. Public registration/event listing pending.
 
 ### IEEE New Hampshire AI Webinar — December 3, 2026
 **Status:** Confirmed.  
