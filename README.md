@@ -234,9 +234,9 @@ Research areas:
 ### AI Trusted Data Workshop — August 15–16, 2026
 Participated in the IEEE Reliability Society workshop at Virginia Tech, Alexandria, Virginia, and contributed to the collaborative white paper **Engineering Trustworthy Data Infrastructure for Reliable AI Systems**.
 
-### IEEE Reliability Society Webinar Proposal — When AI Writes Code: Who Owns Reliability?
+### IEEE Reliability Society Webinar — When AI Writes Code: Who Owns Reliability?
 **Subtitle:** Building Trustworthy Software Systems in the AI Engineering Era.  
-**Status:** Proposed; date not confirmed.
+**Status:** WebEx calendar invitation received from organizer Loretta Arellano for Friday, December 18, 2026, 10:00–11:00 a.m. (time zone not specified in the screenshot). The invitation is labeled “placeholder”; public event listing and registration remain pending.
 
 ### IEEE New Hampshire AI Webinar — December 3, 2026
 **Status:** Confirmed.  
