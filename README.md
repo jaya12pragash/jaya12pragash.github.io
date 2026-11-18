@@ -213,15 +213,6 @@ Research areas:
 
 ---
 
-## Transferred Research Submission — IEEE BigData PSBD 2026
-
-**Runtime Governance, Security, and Reliability for Multi-Agent AI in Distributed Virtual Environments**
-
-**Paper ID:** BigD236  
-**Status:** Not accepted by IEEE BigData 2026 main conference; transferred to the 13th IEEE Special Session on Privacy and Security of Big Data (PSBD 2026), decision pending. Permission requested to replace the transferred PDF with the revised manuscript; upload not confirmed.
-
----
-
 # 📝 Active Research Submissions
 
 ### ICAIC 2027
