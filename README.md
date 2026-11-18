@@ -42,7 +42,7 @@ Alongside engineering, I contribute through technical publications, peer-reviewe
 - **Accepted Paper** — IC-SQITS 2026
 - **Accepted Paper** — AISRI 2026 (Awaiting Indexing)
 - **IEEE Xplore Published Paper** — Cyber-AI 2026 (Document 11755196)
-- **Accepted Paper** — GAISS 2026 (Awaiting Indexing)
+- **IEEE Xplore Published Paper** — GAISS 2026 ([DOI 10.1109/GAISS66401.2026.11779722](https://doi.org/10.1109/GAISS66401.2026.11779722))
 - **Program Committee Member** — IEEE BigData 2026
 - **Program Committee Member** — MIWAI 2026
 - **Program Committee Member** — IC-SQITS 2026
@@ -83,6 +83,16 @@ Topics include:
 - Failure isolation
 - Operational resilience
 - AI FinOps
+
+---
+
+# Contributed Book Chapters
+
+### Springer — Advancing Autonomous Sustainability
+**Contribution:** Chapter 9. Manuscript, author information, and figures submitted; editorial review and revisions ongoing. Publication acceptance is not claimed.
+
+### Bentham Science — Cybersecurity Applications of Agentic AI
+**Contribution:** Chapter 14, *Ecosystem-Level Resilience Engineering for Autonomous Cyber Systems: Containing Tool Misuse, Cascading Failures, and Autonomous Attacks*. Manuscript and figures submitted; final publication acceptance is not yet confirmed.
 
 ---
 
@@ -158,7 +168,9 @@ Research areas:
 
 **Design and Implementation of Secure Agentic AI Systems Using Token Vault Architecture for Real-Time Enterprise Applications**
 
-**Status:** Accepted — Awaiting Proceedings Indexing
+**Status:** Published in IEEE Xplore
+
+**DOI:** [10.1109/GAISS66401.2026.11779722](https://doi.org/10.1109/GAISS66401.2026.11779722)
 
 Research areas:
 
