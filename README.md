@@ -168,7 +168,7 @@ Research areas:
 
 **Design and Implementation of Secure Agentic AI Systems Using Token Vault Architecture for Real-Time Enterprise Applications**
 
-**Status:** Published in IEEE Xplore
+**Status:** Published in IEEE Xplore; listed in Google Scholar
 
 **DOI:** [10.1109/GAISS66401.2026.11779722](https://doi.org/10.1109/GAISS66401.2026.11779722)
 
@@ -409,19 +409,23 @@ External Reviewer / Subreviewer for research involving:
 
 ---
 
-## Confirmed Upcoming Technical Talks
+## Completed Technical Talks
 
 ### ACM Tampa Bay Professional Chapter — November 18, 2026
+
+**Status:** Delivered.
 
 **Lightning Series with Industry Professionals** · Virtual · **8:00 p.m. ET**  
 **Talk:** Beyond AI-Generated Code: Engineering Reliable AI Systems for Production
 
-### Western New England University — November 19, 2026
+### Western New England University — November 12, 2026
+
+**Status:** Delivered.
 
 **Guest lecture** for Professor Steven Li's graduate class · Virtual  
 **Talk:** Beyond Uptime: Engineering Software Reliability
 
-Both engagements are confirmed and scheduled; they have not yet been delivered.
+Both engagements have been delivered.
 
 [Technical Talks & Workshops](https://jaya12pragash.github.io/talks.html)
 
