@@ -279,6 +279,18 @@ Responsibilities: lead the support team and shape research priorities; work with
 
 ---
 
+## Innovation Judging & AAAI Workshop Reviewing
+
+### MIT Solve — 2027 Global Challenges
+
+**Role:** Selected Judge. Assigned solution evaluations begin November 23, 2026. Judging completion is not yet claimed.
+
+### AAAI-27 — Agentic Software Engineering Workshop (AgenticSE)
+
+**Role:** Review Committee Member. OpenReview assignments issued; review deadline November 29, 2026. Completion is not yet claimed.
+
+---
+
 # 👥 Professional Service
 
 ## Program Committee Member
