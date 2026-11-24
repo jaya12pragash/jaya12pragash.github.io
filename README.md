@@ -293,6 +293,14 @@ Responsibilities: lead the support team and shape research priorities; work with
 
 # 👥 Professional Service
 
+## IEEE Admission & Advancement Service
+
+### IEEE Senior Member Application Review Panelist — Region 1, November 2026
+
+Completed Senior Member application review-panel service. Received an appreciation letter from Howard Wolfman, Chair of the IEEE Admission and Advancement Committee, recognizing this contribution.
+
+---
+
 ## Program Committee Member
 
 ### IEEE HOST 2027 — Winter Cycle
