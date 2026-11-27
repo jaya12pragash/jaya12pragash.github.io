@@ -241,8 +241,9 @@ Participated in the IEEE Reliability Society workshop at Virginia Tech, Alexandr
 **Subtitle:** Building Trustworthy Software Systems in the AI Engineering Era.  
 **Status:** Confirmed IEEE Reliability Society webinar for December 18, 2026, 10:00–11:00 a.m. (time zone not verified). December 14 dry run confirmed. Coordinated by Matthew Hu and Loretta Arellano. Public registration/event listing pending.
 
-### IEEE New Hampshire AI Webinar — December 3, 2026
-**Status:** Confirmed.  
+### IEEE New Hampshire AI Webinar — December 17, 2026
+**Talk:** Engineering Reliable AI Agents: Governance, Guardrails, and Operational Resilience.  
+**Status:** Confirmed, 6–7 p.m. ET.  
 **Official IEEE event:** https://events.vtools.ieee.org/m/588940
 
 ### IEEE Reliability Magazine — Accepted Article
@@ -287,7 +288,7 @@ Responsibilities: lead the support team and shape research priorities; work with
 
 ### AAAI-27 — Agentic Software Engineering Workshop (AgenticSE)
 
-**Role:** Review Committee Member. OpenReview assignments issued; review deadline November 29, 2026. Completion is not yet claimed.
+**Role:** Review Committee Member. [OpenReview](https://openreview.net/) assignments issued; review deadline November 29, 2026. Completion is not yet claimed.
 
 ---
 
